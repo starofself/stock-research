@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Flame, Tags, TrendingUp, CandlestickChart, Newspaper, Layers, FlaskConical, CalendarDays, PenLine, type LucideIcon } from "lucide-react";
+import { Home, Sparkles, Flame, Tags, TrendingUp, CandlestickChart, Newspaper, Layers, FlaskConical, CalendarDays, PenLine, type LucideIcon } from "lucide-react";
 
 const nav: { href: string; label: string; Icon: LucideIcon }[] = [
   { href: "/", label: "홈", Icon: Home },
+  { href: "/brief", label: "브리핑", Icon: Sparkles },
   { href: "/screener", label: "신고가", Icon: Flame },
   { href: "/sectors", label: "테마주", Icon: Tags },
   { href: "/stocks", label: "종목", Icon: TrendingUp },

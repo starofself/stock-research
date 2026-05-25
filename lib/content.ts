@@ -22,7 +22,7 @@ function fmtDate(d: unknown): string {
   return String(d || "").slice(0, 10);
 }
 
-type Summary = { summary: string; points: string[]; tags?: string[]; stock?: boolean };
+type Summary = { summary: string; points: string[]; tags?: string[]; stock?: boolean; keep?: boolean };
 function loadSummaries(): Record<string, Summary> {
   try {
     return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "summaries.json"), "utf8"));
@@ -74,7 +74,7 @@ export function getBlogPosts(limit?: number): BlogPost[] {
     return { title, date, summary, url, logno, image, ai: Boolean(ai && ai.summary), tags: (ai && ai.tags) || [] };
   }).filter((p) => {
     const s = p.logno ? SUMM["naver:" + p.logno] : undefined;
-    return !s || s.stock !== false;
+    return !s || s.keep !== false;
   });
   posts.sort((a, b) => b.date.localeCompare(a.date));
   return limit ? posts.slice(0, limit) : posts;
@@ -164,7 +164,7 @@ export function getNotes(): NoteItem[] {
       const raw = fs.readFileSync(fp, "utf8");
       const id = prefix + ":" + path.basename(fp);
       const ai = SUMM[id];
-      if (ai && ai.stock === false) continue;
+      if (ai && ai.keep === false) continue;
       const { title, date } = noteTitleDate(fp, raw);
       items.push({ id, title, date, type, tags: (ai && ai.tags) || [], summary: ai && ai.summary ? ai.summary : "" });
     }

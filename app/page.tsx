@@ -1,11 +1,11 @@
 import { watchlist, accName } from "@/lib/mock";
-import { getBlogPosts, getNotes } from "@/lib/content";
+import { getBlogPosts, getNotes, getScreener } from "@/lib/content";
 import { Card, Pct } from "@/components/ui";
 import Reveal from "@/components/Reveal";
 import HeroImage from "@/components/HeroImage";
 import MacroBoard from "@/components/MacroBoard";
 import Link from "next/link";
-import { FileText, ListChecks, Rss, ArrowUpRight, LineChart } from "lucide-react";
+import { FileText, ListChecks, Rss, ArrowUpRight, LineChart, Flame } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
@@ -27,6 +27,7 @@ function SectionHead({ title, href, Icon }: { title: string; href: string; Icon:
 export default function Home() {
   const blog = getBlogPosts(3);
   const notes = getNotes().slice(0, 6);
+  const screen = getScreener();
   return (
     <div className="space-y-16 md:space-y-20">
       {/* HERO */}
@@ -58,6 +59,30 @@ export default function Home() {
           <MacroBoard />
         </section>
       </Reveal>
+
+      {/* 60D NEW HIGHS */}
+      {screen.high.length > 0 && (
+        <Reveal>
+          <section>
+            <div className="flex items-center justify-between mb-5">
+              <h2 className="flex items-center gap-2 text-xl font-semibold tracking-tight">
+                <Flame size={19} strokeWidth={1.8} className="text-[var(--muted)]" />60일 신고가
+              </h2>
+              <Link href="/screener" className="flex items-center gap-1 text-sm text-[var(--muted)] hover:text-[var(--text)] transition">전체 보기 <ArrowUpRight size={14} /></Link>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {screen.high.slice(0, 18).map((r) => (
+                <a key={r.code} href={`https://finance.naver.com/item/main.naver?code=${r.code}`} target="_blank" rel="noreferrer"
+                  className="flex items-center gap-2 px-3 py-2 rounded-2xl glass glow-hover">
+                  <span className="font-medium text-sm">{r.name}</span>
+                  <span className={`mono text-xs ${r.change >= 0 ? "text-[#E5342B]" : "text-[#1E66F0]"}`}>{r.change >= 0 ? "+" : ""}{r.change}%</span>
+                </a>
+              ))}
+            </div>
+            <div className="text-[11px] text-[var(--muted)] mt-3">업데이트: {screen.updated ? screen.updated.replace("T", " ") : "-"}</div>
+          </section>
+        </Reveal>
+      )}
 
       {/* NOTES */}
       <Reveal>

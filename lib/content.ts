@@ -297,6 +297,17 @@ function buildIndex(): { text: string; hit: SearchHit }[] {
   return items;
 }
 
+export type ScreenerRow = { code: string; name: string; market: string; close: number; change: number; volume: number };
+export type Screener = { updated: string; high: ScreenerRow[]; volume: ScreenerRow[] };
+
+export function getScreener(): Screener {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "screener.json"), "utf8"));
+  } catch {
+    return { updated: "", high: [], volume: [] };
+  }
+}
+
 export function searchAll(q: string, limit = 14): SearchHit[] {
   const qq = q.trim().toLowerCase();
   if (!qq) return [];

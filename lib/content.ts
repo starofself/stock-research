@@ -297,7 +297,7 @@ function buildIndex(): { text: string; hit: SearchHit }[] {
   return items;
 }
 
-export type ScreenerRow = { code: string; name: string; market: string; close: number; change: number; volume: number };
+export type ScreenerRow = { code: string; name: string; market: string; close: number; change: number; volume: number; themes?: string[] };
 export type Screener = { updated: string; high: ScreenerRow[]; volume: ScreenerRow[] };
 
 export type ThemeStock = { code: string; name: string };

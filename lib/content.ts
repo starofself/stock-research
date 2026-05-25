@@ -217,6 +217,41 @@ export function getStocks(): Stock[] {
 
 export type FullNote = { title: string; date: string; type: string; html: string; summary?: string; points?: string[]; tags: string[] };
 
+function stripName(idOrBase: string): string {
+  const base = idOrBase.includes(":") ? idOrBase.split(":").slice(1).join(":") : idOrBase;
+  return base.replace(/\.md$/, "");
+}
+
+// title/name -> note id, for resolving [[wikilinks]]
+function buildNoteIndex(): Map<string, string> {
+  const m = new Map<string, string>();
+  const add = (k: string, id: string) => {
+    const key = k.trim();
+    if (key && !m.has(key)) m.set(key, id);
+  };
+  for (const n of getNotes()) {
+    const base = stripName(n.id);
+    add(base, n.id);
+    add(base.replace(/^\d{4}-\d{2}-\d{2}[ _-]*/, ""), n.id);
+    add(n.title, n.id);
+  }
+  // company names -> latest note of that company
+  for (const s of getStocks()) {
+    if (s.latestId) add(s.name, decodeURIComponent(s.latestId));
+  }
+  return m;
+}
+
+function resolveWikilinks(md: string, idx: Map<string, string>): string {
+  return md.replace(/\[\[([^\]]+)\]\]/g, (_m, inner: string) => {
+    const parts = String(inner).split("|");
+    const target = parts[0].split("#")[0].trim();
+    const label = (parts[1] || parts[0]).trim();
+    const id = idx.get(target) || idx.get(target.replace(/\.md$/, ""));
+    return id ? `[${label}](/note/${encodeURIComponent(id)})` : label;
+  });
+}
+
 export function getNote(id: string): FullNote | null {
   const SUMM = loadSummaries();
   for (const { prefix, dir, type } of NOTE_DIRS) {
@@ -228,7 +263,8 @@ export function getNote(id: string): FullNote | null {
         const { content } = matter(raw);
         const { title, date } = noteTitleDate(fp, raw);
         const ai = SUMM[id];
-        return { title, date, type, html: marked.parse(content) as string, summary: ai?.summary, points: ai?.points, tags: (ai && ai.tags) || [] };
+        const md = resolveWikilinks(content, buildNoteIndex());
+        return { title, date, type, html: marked.parse(md) as string, summary: ai?.summary, points: ai?.points, tags: (ai && ai.tags) || [] };
       }
     }
   }

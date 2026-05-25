@@ -1,10 +1,11 @@
-import { accounts, totals, won, trades, watchlist, accName } from "@/lib/mock";
+import { watchlist, accName } from "@/lib/mock";
 import { getBlogPosts, getNotes } from "@/lib/content";
-import { Card, Pct, Sparkline } from "@/components/ui";
+import { Card, Pct } from "@/components/ui";
 import Reveal from "@/components/Reveal";
 import HeroImage from "@/components/HeroImage";
+import MacroBoard from "@/components/MacroBoard";
 import Link from "next/link";
-import { FileText, ListChecks, ArrowLeftRight, Rss, ArrowUpRight } from "lucide-react";
+import { FileText, ListChecks, Rss, ArrowUpRight, LineChart } from "lucide-react";
 
 export const dynamic = "force-dynamic";
 
@@ -27,54 +28,34 @@ export default function Home() {
   const blog = getBlogPosts(3);
   const notes = getNotes().slice(0, 6);
   return (
-    <div className="space-y-16 md:space-y-24">
+    <div className="space-y-16 md:space-y-20">
       {/* HERO */}
-      <section className="relative overflow-hidden rounded-[28px] bg-[var(--ink)] border border-[var(--border)] min-h-[440px] md:min-h-[540px] flex">
+      <section className="relative overflow-hidden rounded-[28px] bg-[var(--ink)] border border-[var(--border)] min-h-[380px] md:min-h-[460px] flex">
         <HeroImage src="/hero.png" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/45 to-black/10" />
-        <div className="relative px-7 md:px-14 py-16 md:py-24 max-w-2xl self-center">
-          <Reveal y={16}><div className="text-white/60 text-sm tracking-wide">개인 투자 리서치 · 거래일지</div></Reveal>
+        <div className="relative px-7 md:px-14 py-14 md:py-20 max-w-2xl self-center">
+          <Reveal y={16}><div className="text-white/60 text-sm tracking-wide">개인 투자 리서치 · 시장 모니터</div></Reveal>
           <Reveal y={20} delay={0.08}><h1 className="text-white text-4xl md:text-6xl font-bold tracking-tight mt-3 leading-[1.05]">리서치가<br />곧 나의 알파.</h1></Reveal>
-          <Reveal y={20} delay={0.16}><p className="text-white/75 mt-5 text-base md:text-lg max-w-lg leading-relaxed">미래에셋과 한국투자, 두 계좌를 한 화면에서. 옵시디언 노트와 자동매매봇 기록까지 한 흐름으로.</p></Reveal>
+          <Reveal y={20} delay={0.16}><p className="text-white/75 mt-5 text-base md:text-lg max-w-lg leading-relaxed">매크로·원자재·금리부터 종목 리서치까지 한 화면에서.</p></Reveal>
           <Reveal y={20} delay={0.24}>
             <div className="flex gap-3 mt-8">
-              <Link href="/stocks" className="bg-white text-black text-sm font-semibold px-5 py-3 rounded-full hover:scale-[1.03] hover:opacity-90 transition">종목 리서치 보기</Link>
-              <Link href="/journal" className="text-white text-sm font-semibold px-5 py-3 rounded-full border border-white/25 hover:bg-white/10 transition">거래일지</Link>
+              <Link href="/stocks" className="bg-white text-black text-sm font-semibold px-5 py-3 rounded-full hover:scale-[1.03] hover:opacity-90 transition">종목 리서치</Link>
+              <Link href="/chart" className="text-white text-sm font-semibold px-5 py-3 rounded-full border border-white/25 hover:bg-white/10 transition">차트</Link>
             </div>
           </Reveal>
         </div>
       </section>
 
-      {/* SUMMARY */}
+      {/* MACRO BOARD */}
       <Reveal>
         <section>
-          <div className="grid gap-5 md:grid-cols-3">
-            <Card className="rounded-3xl p-6">
-              <div className="text-sm text-[var(--muted)]">총 평가금액</div>
-              <div className="text-3xl font-bold mono mt-2 tracking-tight">{won(totals.value)}</div>
-              <div className="flex items-end justify-between mt-4">
-                <div className="text-sm text-[var(--muted)]">오늘 <Pct v={totals.dayPct} /> · 누적 <Pct v={totals.totalPct} /></div>
-                <Sparkline data={totals.spark} color="#0B0B0F" />
-              </div>
-            </Card>
-            {accounts.map((a) => (
-              <Card key={a.id} className="rounded-3xl p-6">
-                <div className="flex items-start justify-between">
-                  <div className="text-sm text-[var(--muted)] flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[var(--ink)]" />{a.name}
-                  </div>
-                  {a.auto
-                    ? <span className="text-[11px] px-2.5 py-1 rounded-full bg-[var(--ink)] text-white font-medium">자동매매봇</span>
-                    : <span className="text-[11px] px-2.5 py-1 rounded-full bg-[var(--soft)] text-[var(--muted)] font-medium">수동</span>}
-                </div>
-                <div className="text-3xl font-bold mono mt-2 tracking-tight">{won(a.value)}</div>
-                <div className="flex items-end justify-between mt-4">
-                  <div className="text-sm text-[var(--muted)]">오늘 <Pct v={a.dayPct} /> · 누적 <Pct v={a.totalPct} /></div>
-                  <Sparkline data={a.spark} color="#0B0B0F" />
-                </div>
-              </Card>
-            ))}
+          <div className="flex items-center justify-between mb-5">
+            <h2 className="flex items-center gap-2 text-xl font-semibold tracking-tight">
+              <LineChart size={19} strokeWidth={1.8} className="text-[var(--muted)]" />주요 시장
+            </h2>
+            <span className="text-xs text-[var(--muted)]">실시간 · 매일 자동</span>
           </div>
+          <MacroBoard />
         </section>
       </Reveal>
 
@@ -100,6 +81,7 @@ export default function Home() {
         </section>
       </Reveal>
 
+      {/* WATCHLIST */}
       <Reveal>
         <section>
           <SectionHead title="관심 종목" href="/stocks" Icon={ListChecks} />
@@ -111,7 +93,6 @@ export default function Home() {
                   <th className="text-right font-medium p-4">현재가</th>
                   <th className="text-right font-medium p-4">등락</th>
                   <th className="text-left font-medium p-4 hidden sm:table-cell">메모</th>
-                  <th className="text-right font-medium p-4">계좌</th>
                 </tr>
               </thead>
               <tbody>
@@ -121,7 +102,6 @@ export default function Home() {
                     <td className="p-4 text-right mono">{w.price.toLocaleString()}</td>
                     <td className="p-4 text-right"><Pct v={w.pct} /></td>
                     <td className="p-4 text-[var(--muted)] hidden sm:table-cell">{w.memo}</td>
-                    <td className="p-4 text-right text-xs text-[var(--muted)]">{accName(w.account)}</td>
                   </tr>
                 ))}
               </tbody>
@@ -149,7 +129,7 @@ export default function Home() {
                       <div className="text-xs mono text-[var(--muted)]">{b.date}</div>
                       <h3 className="mt-1.5 font-semibold leading-snug tracking-tight line-clamp-2">{b.title}</h3>
                       <p className="mt-2 text-sm text-[var(--muted)] leading-relaxed line-clamp-2">{b.summary}</p>
-                      <div className="mt-4 flex items-center gap-1 text-sm text-[var(--text)] font-medium">원문 보기 <ArrowUpRight size={14} /></div>
+                      <div className="mt-4 flex items-center gap-1 text-sm text-[var(--text)] font-medium">읽기 <ArrowUpRight size={14} /></div>
                     </div>
                   </Card>
                 </a>

@@ -16,7 +16,7 @@ function Mini({ symbol }: { symbol: string }) {
     });
     el.appendChild(s);
   }, [symbol]);
-  return <div ref={ref} style={{ height: 130 }} />;
+  return <div ref={ref} style={{ height: 220 }} />;
 }
 
 const GROUPS: { title: string; items: { label: string; sym: string }[] }[] = [
@@ -53,7 +53,7 @@ export default function MacroBoard() {
       {GROUPS.map((g) => (
         <div key={g.title}>
           <div className="text-xs font-semibold text-[var(--muted)] mb-2">{g.title}</div>
-          <div className="grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {g.items.map((it) => (
               <div key={it.sym} className="glass rounded-2xl overflow-hidden">
                 <div className="text-[11px] font-medium px-3 pt-2 text-[var(--text)]">{it.label}</div>

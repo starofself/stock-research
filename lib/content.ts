@@ -22,7 +22,7 @@ function fmtDate(d: unknown): string {
   return String(d || "").slice(0, 10);
 }
 
-type Summary = { summary: string; points: string[]; stock?: boolean };
+type Summary = { summary: string; points: string[]; tags?: string[]; stock?: boolean };
 function loadSummaries(): Record<string, Summary> {
   try {
     return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "summaries.json"), "utf8"));

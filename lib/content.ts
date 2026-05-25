@@ -300,6 +300,18 @@ function buildIndex(): { text: string; hit: SearchHit }[] {
 export type ScreenerRow = { code: string; name: string; market: string; close: number; change: number; volume: number };
 export type Screener = { updated: string; high: ScreenerRow[]; volume: ScreenerRow[] };
 
+export type ThemeStock = { code: string; name: string };
+export type ThemeItem = { no: string; name: string; count: number; stocks: ThemeStock[] };
+export type MarketThemes = { updated: string; themes: ThemeItem[]; stockThemes: Record<string, string[]> };
+
+export function getMarketThemes(): MarketThemes {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "themes.json"), "utf8"));
+  } catch {
+    return { updated: "", themes: [], stockThemes: {} };
+  }
+}
+
 export function getScreener(): Screener {
   try {
     return JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "screener.json"), "utf8"));

@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home",
+    "brief": "Brief",
+    "screener": "New Highs",
+    "sectors": "Themes",
+    "stocks": "Stocks",
+    "chart": "Chart",
+    "disclosures": "Filings",
+    "themes": "Topics",
+    "research": "Deep Research",
+    "daily": "Daily",
+    "blog": "Blog"
+  },
+  "topbar": {
+    "searchPlaceholder": "Search stocks · notes · blog",
+    "marketOpen": "Market open",
+    "language": "Language"
+  },
+  "home": {
+    "heroKicker": "Personal investment research · market monitor",
+    "heroTitleLine1": "Research",
+    "heroTitleLine2": "is my alpha.",
+    "heroLead": "Leading stocks and deep equity research, all on one screen.",
+    "ctaResearch": "Deep Research",
+    "ctaStocks": "Stock Research",
+    "recentResearch": "Recent Research Notes",
+    "leadingStocks": "Leading Stocks",
+    "leadingStocksDesc": "Top by new highs and volume — the stocks driving the market now",
+    "leadingStocksResearch": "Leading-Stock Research",
+    "leadingStocksResearchDesc": "My research notes tied to the leading stocks",
+    "deepResearch": "Deep Research Highlights",
+    "viewAll": "View all",
+    "updated": "Updated",
+    "byVolume": "Top volume",
+    "byHigh": "New highs",
+    "noResearch": "No linked research yet."
+  },
+  "common": {
+    "readMore": "Read",
+    "price": "Price",
+    "change": "Change"
+  }
+}

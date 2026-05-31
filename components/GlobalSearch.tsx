@@ -2,14 +2,17 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
+import { useLocale } from "@/components/LocaleLink";
+import { withLocale } from "@/lib/i18n/config";
 
 type Hit = { title: string; date: string; kind: "blog" | "note"; href: string; tags: string[] };
 
-export default function GlobalSearch() {
+export default function GlobalSearch({ placeholder }: { placeholder?: string }) {
   const [q, setQ] = useState("");
   const [res, setRes] = useState<Hit[]>([]);
   const [open, setOpen] = useState(false);
   const router = useRouter();
+  const locale = useLocale();
   const box = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -34,7 +37,7 @@ export default function GlobalSearch() {
   }, []);
 
   function go(href: string) {
-    router.push(href);
+    router.push(href.startsWith("/") ? withLocale(locale, href) : href);
     setOpen(false);
     setQ("");
   }
@@ -47,7 +50,7 @@ export default function GlobalSearch() {
           value={q}
           onChange={(e) => setQ(e.target.value)}
           onFocus={() => res.length > 0 && setOpen(true)}
-          placeholder="종목 · 노트 · 블로그 검색"
+          placeholder={placeholder || "종목 · 노트 · 블로그 검색"}
           className="bg-transparent outline-none text-sm w-full text-[var(--text)] placeholder:text-[var(--muted)]"
         />
       </div>
@@ -55,7 +58,7 @@ export default function GlobalSearch() {
         <div className="absolute top-11 left-0 right-0 z-50 glass rounded-2xl p-2 max-h-[460px] overflow-auto">
           {res.map((r, i) => (
             <button key={i} onClick={() => go(r.href)} className="w-full text-left p-3 rounded-xl hover:bg-[var(--soft)] transition flex items-start gap-2">
-              <span className={`shrink-0 mt-0.5 text-[10px] px-1.5 py-0.5 rounded font-medium ${r.kind === "note" ? "bg-[var(--ink)] text-white" : "bg-[var(--soft)] text-[var(--muted)] border border-[var(--border)]"}`}>{r.kind === "note" ? "노트" : "블로그"}</span>
+              <span className={`shrink-0 mt-0.5 text-[10px] px-1.5 py-0.5 rounded font-medium ${r.kind === "note" ? "bg-[var(--ink)] text-white" : "bg-[var(--soft)] text-[var(--muted)] border border-[var(--border)]"}`}>{r.kind === "note" ? (locale === "en" ? "Note" : "노트") : (locale === "en" ? "Blog" : "블로그")}</span>
               <span className="min-w-0">
                 <span className="block text-sm font-medium line-clamp-1">{r.title}</span>
                 <span className="block text-xs text-[var(--muted)] mono mt-0.5">{r.date}{r.tags.length > 0 ? " · " + r.tags.map((t) => "#" + t).join(" ") : ""}</span>

@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import { blogEn, notesEn } from "./i18n/translations";
 
 const VAULT = process.env.VAULT_PATH || "/Users/starofselfhigmail.com/Documents/Starofself";
 // In deploy mode, content is bundled into the repo under content/ (auto-detected).
@@ -51,7 +52,7 @@ function clean(s: string): string {
     .trim();
 }
 
-export function getBlogPosts(limit?: number): BlogPost[] {
+export function getBlogPosts(limit?: number, locale?: string): BlogPost[] {
   const dir = BLOG_DIR;
   let files: string[] = [];
   try {
@@ -60,15 +61,21 @@ export function getBlogPosts(limit?: number): BlogPost[] {
     return [];
   }
   const SUMM = loadSummaries();
+  const EN = locale === "en" ? blogEn() : null;
   const posts: BlogPost[] = files.map((f) => {
     const raw = fs.readFileSync(path.join(dir, f), "utf8");
     const { data, content } = matter(raw);
-    const title = (data.title as string) || f.replace(/\.md$/, "");
+    let title = (data.title as string) || f.replace(/\.md$/, "");
     const date = fmtDate(data.date);
     const url = (data.source as string) || "https://blog.naver.com/star_of_self";
     const logno = data.naver_logno ? String(data.naver_logno) : undefined;
     const ai = logno ? SUMM["naver:" + logno] : undefined;
-    const summary = ai && ai.summary ? ai.summary : clean(content).slice(0, 100);
+    let summary = ai && ai.summary ? ai.summary : clean(content).slice(0, 100);
+    const en = EN && logno ? EN[logno] : undefined;
+    if (en) {
+      if (en.title) title = en.title;
+      if (en.summary) summary = en.summary;
+    }
     const m = content.match(/src="(_attachments\/[^"]+)"/);
     const image = m ? m[1] : undefined;
     return { title, date, summary, url, logno, image, ai: Boolean(ai && ai.summary), tags: (ai && ai.tags) || [] };
@@ -82,7 +89,7 @@ export function getBlogPosts(limit?: number): BlogPost[] {
 
 export type FullPost = { title: string; date: string; html: string; url: string; summary?: string; points?: string[] };
 
-export function getBlogPost(logno: string): FullPost | null {
+export function getBlogPost(logno: string, locale?: string): FullPost | null {
   const dir = BLOG_DIR;
   let files: string[] = [];
   try {
@@ -91,18 +98,20 @@ export function getBlogPost(logno: string): FullPost | null {
     return null;
   }
   const SUMM = loadSummaries();
+  const en = locale === "en" ? blogEn()[logno] : undefined;
   for (const f of files) {
     const raw = fs.readFileSync(path.join(dir, f), "utf8");
     const { data, content } = matter(raw);
     if (String(data.naver_logno) === logno) {
-      const html = content.replace(/(src=")_attachments\//g, "$1/blog-att/");
+      let html = content.replace(/(src=")_attachments\//g, "$1/blog-att/");
       const ai = SUMM["naver:" + logno];
+      if (en?.html) html = en.html.replace(/(src=")_attachments\//g, "$1/blog-att/");
       return {
-        title: String(data.title || f.replace(/\.md$/, "")),
+        title: en?.title || String(data.title || f.replace(/\.md$/, "")),
         date: fmtDate(data.date),
         html,
         url: String(data.source || "https://blog.naver.com/star_of_self"),
-        summary: ai ? ai.summary : undefined,
+        summary: en?.summary ?? (ai ? ai.summary : undefined),
         points: ai ? ai.points : undefined,
       };
     }
@@ -156,8 +165,9 @@ function noteTitleDate(fp: string, raw: string): { title: string; date: string }
   return { title, date };
 }
 
-export function getNotes(): NoteItem[] {
+export function getNotes(locale?: string): NoteItem[] {
   const SUMM = loadSummaries();
+  const EN = locale === "en" ? notesEn() : null;
   const items: NoteItem[] = [];
   for (const { prefix, dir, type } of NOTE_DIRS) {
     for (const fp of listMd(dir)) {
@@ -166,15 +176,23 @@ export function getNotes(): NoteItem[] {
       const ai = SUMM[id];
       if (ai && ai.keep === false) continue;
       const { title, date } = noteTitleDate(fp, raw);
-      items.push({ id, title, date, type, tags: (ai && ai.tags) || [], summary: ai && ai.summary ? ai.summary : "" });
+      const en = EN ? EN[id] : undefined;
+      items.push({
+        id,
+        title: en?.title || title,
+        date,
+        type,
+        tags: (ai && ai.tags) || [],
+        summary: en?.summary ?? (ai && ai.summary ? ai.summary : ""),
+      });
     }
   }
   items.sort((a, b) => b.date.localeCompare(a.date));
   return items;
 }
 
-export function getNotesByType(type: string): NoteItem[] {
-  return getNotes().filter((n) => n.type === type);
+export function getNotesByType(type: string, locale?: string): NoteItem[] {
+  return getNotes(locale).filter((n) => n.type === type);
 }
 
 export type Stock = { ticker: string; name: string; count: number; date: string; tags: string[]; latestId: string };
@@ -252,8 +270,9 @@ function resolveWikilinks(md: string, idx: Map<string, string>): string {
   });
 }
 
-export function getNote(id: string): FullNote | null {
+export function getNote(id: string, locale?: string): FullNote | null {
   const SUMM = loadSummaries();
+  const en = locale === "en" ? notesEn()[id] : undefined;
   for (const { prefix, dir, type } of NOTE_DIRS) {
     if (!id.startsWith(prefix + ":")) continue;
     const base = id.slice(prefix.length + 1);
@@ -263,8 +282,8 @@ export function getNote(id: string): FullNote | null {
         const { content } = matter(raw);
         const { title, date } = noteTitleDate(fp, raw);
         const ai = SUMM[id];
-        const md = resolveWikilinks(content, buildNoteIndex());
-        return { title, date, type, html: marked.parse(md) as string, summary: ai?.summary, points: ai?.points, tags: (ai && ai.tags) || [] };
+        const html = en?.html ?? (marked.parse(resolveWikilinks(content, buildNoteIndex())) as string);
+        return { title: en?.title || title, date, type, html, summary: en?.summary ?? ai?.summary, points: ai?.points, tags: (ai && ai.tags) || [] };
       }
     }
   }

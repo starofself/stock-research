@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "홈",
+    "brief": "브리핑",
+    "screener": "신고가",
+    "sectors": "테마주",
+    "stocks": "종목",
+    "chart": "차트",
+    "disclosures": "공시",
+    "themes": "테마",
+    "research": "딥리서치",
+    "daily": "데일리",
+    "blog": "블로그"
+  },
+  "topbar": {
+    "searchPlaceholder": "종목 · 노트 · 블로그 검색",
+    "marketOpen": "장 개장",
+    "language": "언어"
+  },
+  "home": {
+    "heroKicker": "개인 투자 리서치 · 시장 모니터",
+    "heroTitleLine1": "리서치가",
+    "heroTitleLine2": "곧 나의 알파.",
+    "heroLead": "주도주와 깊이 있는 종목 리서치를 한 화면에서.",
+    "ctaResearch": "딥리서치",
+    "ctaStocks": "종목 리서치",
+    "recentResearch": "최근 리서치 노트",
+    "leadingStocks": "주도주",
+    "leadingStocksDesc": "신고가 · 거래량 상위 — 지금 시장을 이끄는 종목",
+    "leadingStocksResearch": "주도주 리서치",
+    "leadingStocksResearchDesc": "주도주와 연결된 내 리서치 노트",
+    "deepResearch": "딥리서치 하이라이트",
+    "viewAll": "전체 보기",
+    "updated": "업데이트",
+    "byVolume": "거래량 상위",
+    "byHigh": "신고가",
+    "noResearch": "아직 연결된 리서치가 없어요."
+  },
+  "common": {
+    "readMore": "읽기",
+    "price": "현재가",
+    "change": "등락"
+  }
+}

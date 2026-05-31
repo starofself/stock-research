@@ -1,4 +1,5 @@
 import { getNote } from "@/lib/content";
+import { getReport, noteReportKey } from "@/lib/reports";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import LocaleLink from "@/components/LocaleLink";
@@ -26,9 +27,21 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 export default async function NotePage({ params }: { params: Promise<{ lang: string; id: string }> }) {
   const { lang, id } = await params;
   const locale: Locale = isLocale(lang) ? lang : "ko";
-  const note = getNote(decodeURIComponent(id), locale);
+  const decoded = decodeURIComponent(id);
+  const note = getNote(decoded, locale);
   if (!note) notFound();
   const L = locale === "en" ? { back: "Back", summary: "Key summary · AI" } : { back: "돌아가기", summary: "핵심 요약 · AI" };
+  const report = getReport("note", noteReportKey(decoded), locale);
+  if (report) {
+    return (
+      <article className="max-w-3xl mx-auto">
+        <LocaleLink href="/research" className="inline-flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--text)] transition">
+          <ArrowLeft size={15} /> {L.back}
+        </LocaleLink>
+        <div className="report mt-6" dangerouslySetInnerHTML={{ __html: report.html as string }} />
+      </article>
+    );
+  }
   return (
     <article className="max-w-3xl mx-auto">
       <LocaleLink href="/research" className="inline-flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--text)] transition">

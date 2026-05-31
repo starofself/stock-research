@@ -1,4 +1,5 @@
 import { getBlogPost } from "@/lib/content";
+import { getReport } from "@/lib/reports";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import LocaleLink from "@/components/LocaleLink";
@@ -30,6 +31,20 @@ export default async function Post({ params }: { params: Promise<{ lang: string;
   const L = locale === "en"
     ? { back: "Blog", source: "Naver original", summary: "Key summary · AI" }
     : { back: "블로그", source: "네이버 원문", summary: "핵심 요약 · AI" };
+  const report = getReport("blog", logno, locale);
+  if (report) {
+    return (
+      <article className="max-w-3xl mx-auto">
+        <LocaleLink href="/blog" className="inline-flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--text)] transition">
+          <ArrowLeft size={15} /> {L.back}
+        </LocaleLink>
+        <div className="report mt-6" dangerouslySetInnerHTML={{ __html: report.html as string }} />
+        <div className="mt-10 pt-5 border-t border-[var(--border)] text-sm text-[var(--muted)]">
+          <a href={post.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-[var(--text)] transition">{L.source} <ExternalLink size={13} /></a>
+        </div>
+      </article>
+    );
+  }
   return (
     <article className="max-w-3xl mx-auto">
       <LocaleLink href="/blog" className="inline-flex items-center gap-1.5 text-sm text-[var(--muted)] hover:text-[var(--text)] transition">

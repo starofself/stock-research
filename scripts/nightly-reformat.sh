@@ -1,6 +1,6 @@
 #!/bin/zsh
-# Nightly: reformat any newly-posted content into report HTML (ko + en), then push.
-# Scheduled via cron (19:00 daily). Operates on the currently checked-out branch.
+# Nightly: ingest Telegram/Hermes research, reformat newly-posted content into
+# report HTML (ko + en), then push. Scheduled via launchd (19:00 daily).
 set -u
 export PATH="/Users/starofselfhigmail.com/.local/bin:/Users/starofselfhigmail.com/.local/opt/node-current/bin:/usr/bin:/bin:/usr/local/bin:$PATH"
 REPO="/Users/starofselfhigmail.com/Developer/stock-research"
@@ -22,13 +22,15 @@ touch "$LOCK"
 echo "branch=$(git rev-parse --abbrev-ref HEAD)"
 git pull --ff-only || echo "(pull skipped/failed)"
 
+node scripts/ingest-hermes-telegram-research.mjs --since-days 14 || echo "(hermes telegram ingest failed)"
+
 PENDING=$(node scripts/list-pending-reports.mjs 0 2>&1 1>/dev/null)
 echo "$PENDING"
 
 # Reformat all pending new posts (single shard)
 ./scripts/reformat-loop.sh 0 1 5
 
-git add data/reports data/i18n 2>/dev/null
+git add content/notes/research data/reports data/i18n 2>/dev/null
 if ! git diff --cached --quiet; then
   git commit -m "data: nightly report reformat $(date +%F)"
   git push && echo "pushed" || echo "push failed"

@@ -32,8 +32,9 @@ $LIST"
   if [ "$after" -le "$before" ]; then
     stall=$((stall+1))
     echo "[$(date)] shard $SHARD: no progress ($stall)" >> "$LOG"
-    if [ "$stall" -ge 4 ]; then echo "[$(date)] shard $SHARD: stalled, exiting" >> "$LOG"; break; fi
-    sleep 30
+    # Be patient through codex rate-limit / reconnects; only give up after a long dry spell.
+    if [ "$stall" -ge 40 ]; then echo "[$(date)] shard $SHARD: stalled 40x, exiting" >> "$LOG"; break; fi
+    sleep 45
   else
     stall=0
   fi

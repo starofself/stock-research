@@ -8,7 +8,11 @@ LOG=/tmp/reformat-shard${SHARD}-of${OF}.log
 : > "$LOG"
 echo "[$(date)] start shard=$SHARD/$OF batch=$BATCH" >> "$LOG"
 
-count_reports() { find data/reports -type f -name '*.json' | wc -l | tr -d ' '; }
+# Count reports already upgraded to the current spec (v2). Using total file
+# count breaks during a re-do pass because files are overwritten, not added.
+count_reports() {
+  node -e "const fs=require('fs'),p=require('path');let v=0;for(const k of['blog','note']){const d='data/reports/'+k;try{for(const f of fs.readdirSync(d)){try{if(JSON.parse(fs.readFileSync(p.join(d,f))).specVersion===2)v++}catch{}}}catch{}}console.log(v)" 2>/dev/null || echo 0
+}
 stall=0
 
 while true; do

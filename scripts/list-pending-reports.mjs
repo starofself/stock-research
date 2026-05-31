@@ -27,6 +27,9 @@ for (let i = 0; i < args.length; i++) {
 const sha1 = (s) => crypto.createHash("sha1").update(s).digest("hex");
 const sha256 = (s) => crypto.createHash("sha256").update(s).digest("hex");
 
+// Bump when REPORT-FORMAT.md rules change so older reports get re-queued.
+const CURRENT_SPEC = 2;
+
 function listMd(dir) {
   let out = [];
   let entries = [];
@@ -45,6 +48,7 @@ function pending(kind, key, srcPath) {
   let cur = null;
   try { cur = JSON.parse(fs.readFileSync(rp, "utf8")); } catch { return true; }
   if (!cur || !cur.ko || !cur.ko.html) return true;
+  if ((cur.specVersion || 1) !== CURRENT_SPEC) return true; // re-queue old-spec reports
   try {
     const h = sha256(fs.readFileSync(srcPath, "utf8"));
     return cur.sourceHash !== h;

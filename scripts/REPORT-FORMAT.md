@@ -25,6 +25,10 @@ Reformat each Korean post into a premium research-report layout. Output the **in
 Rules:
 - Preserve ALL substantive content and any real numbers/facts from the source — do NOT invent facts. Restructure and clarify only.
 - Keep the author's first-person research voice.
-- Images: if the source has `<img src="_attachments/FILE">`, output it as `<img src="/blog-att/FILE" alt="설명">` placed near the relevant section, with a short Korean (and for EN, English) alt.
-- Short/thin posts: still apply eyebrow/title/subtitle/meta/disclaimer + at least "결론 먼저" and 1–2 sections; skip diagram/cards if not warranted.
+- **VISUAL UNDERSTANDING (required where possible):** Help the reader understand visually — intersperse visuals through the body, aiming for at least one visual aid in each major section when the content supports it:
+  - (a) KEEP every image from the source. If the source has `<img src="_attachments/FILE">`, output it as `<img src="/blog-att/FILE" alt="설명">` (EN: English alt) placed near the relevant section. Never drop source images.
+  - (b) ADD diagrams (`.report-diagram`) and comparison/feature cards (`.report-cards`) to visualize structures, flows, comparisons, timelines, or key numbers from the source.
+  - Only visualize what is actually in the source — never fabricate fake data/numbers in a diagram.
+- **LINKS (required):** PRESERVE every link in the source. Render each as a working `<a href="URL" target="_blank" rel="noreferrer">text</a>` inline where it appears. NEVER drop a link, flatten it to plain text, or strip the URL. Also collect external reference links into the `.report-sources` block at the end.
+- Short/thin posts: still apply eyebrow/title/subtitle/meta/disclaimer + at least "결론 먼저" and 1–2 sections; add a small diagram/cards if it aids understanding, otherwise keep it clean.
 - Produce BOTH a Korean (`ko`) and an English (`en`) version of the full report HTML (same structure; translate all visible text incl. labels: 공식 사실→Official fact, 해석→Interpretation, 결론 먼저→Bottom line first, 출처→Sources).

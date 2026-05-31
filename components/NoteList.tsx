@@ -1,8 +1,8 @@
 import { Card } from "@/components/ui";
-import Link from "next/link";
+import LocaleLink from "@/components/LocaleLink";
 import type { NoteItem } from "@/lib/content";
 
-export default function NoteList({ title, desc, items }: { title: string; desc: string; items: NoteItem[] }) {
+export default function NoteList({ title, desc, items, emptyText = "노트 없음" }: { title: string; desc: string; items: NoteItem[]; emptyText?: string }) {
   return (
     <div className="space-y-6">
       <div>
@@ -11,7 +11,7 @@ export default function NoteList({ title, desc, items }: { title: string; desc: 
       </div>
       <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {items.map((n) => (
-          <Link key={n.id} href={"/note/" + encodeURIComponent(n.id)}>
+          <LocaleLink key={n.id} href={"/note/" + encodeURIComponent(n.id)}>
             <Card className="rounded-3xl p-6 h-full flex flex-col">
               <div className="flex items-center gap-2 text-xs text-[var(--muted)]">
                 <span className="px-2 py-0.5 rounded-full bg-[var(--soft)] font-medium">{n.type}</span>
@@ -23,9 +23,9 @@ export default function NoteList({ title, desc, items }: { title: string; desc: 
                 <div className="mt-3 flex flex-wrap gap-1.5">{n.tags.slice(0, 4).map((t) => <span key={t} className="text-[11px] text-[var(--muted)]">#{t}</span>)}</div>
               )}
             </Card>
-          </Link>
+          </LocaleLink>
         ))}
-        {items.length === 0 && <div className="text-sm text-[var(--muted)]">노트 없음</div>}
+        {items.length === 0 && <div className="text-sm text-[var(--muted)]">{emptyText}</div>}
       </div>
     </div>
   );

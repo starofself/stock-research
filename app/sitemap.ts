@@ -12,6 +12,7 @@ const STATIC_ROUTES: { path: string; priority: number; changeFrequency: Metadata
   { path: "/sectors", priority: 0.7, changeFrequency: "weekly" },
   { path: "/themes", priority: 0.7, changeFrequency: "weekly" },
   { path: "/screener", priority: 0.7, changeFrequency: "weekly" },
+  { path: "/exports", priority: 0.7, changeFrequency: "weekly" },
   { path: "/stocks", priority: 0.7, changeFrequency: "weekly" },
   { path: "/disclosures", priority: 0.6, changeFrequency: "daily" },
   { path: "/chart", priority: 0.5, changeFrequency: "monthly" },

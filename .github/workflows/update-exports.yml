@@ -12,6 +12,9 @@ name: update-exports
 on:
   schedule:
     - cron: "30 2 1,2,11,12,15,16,21,22 * *"
+  push:
+    branches: ["main", "claude/starfolio-export-data-graph-8mvz6t"]
+    paths: [".github/workflows/update-exports.yml", "data/export-items.json"]
   workflow_dispatch:
     inputs:
       start:

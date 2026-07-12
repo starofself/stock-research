@@ -128,6 +128,24 @@ def main():
             "rows": series,
         })
 
+    # 기존 데이터와 병합: 같은 품목·같은 달은 엑셀 값이 이기고,
+    # 엑셀에 없는 과거 달(API 백필분 등)은 유지한다.
+    try:
+        prev = json.loads(out.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        prev = {"items": []}
+    prev_by_name = {it["name"]: it for it in prev.get("items", [])}
+    for it in items:
+        old = prev_by_name.get(it["name"])
+        if not old:
+            continue
+        merged = {r[0]: r for r in old.get("rows", [])}
+        for r in it["rows"]:
+            merged[r[0]] = r
+        it["rows"] = [merged[k] for k in sorted(merged)]
+    names = {it["name"] for it in items}
+    items += [it for it in prev.get("items", []) if it["name"] not in names]
+
     data = {
         "source": src.name,
         "items": items,

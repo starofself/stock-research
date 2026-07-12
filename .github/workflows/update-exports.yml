@@ -5,7 +5,7 @@
 #   - 매월 15일경: 전월 월간 확정
 # 발표 당일 + 다음날 11:30 KST(02:30 UTC)에 돌려 늦은 반영도 수습한다.
 #
-# 필요 secret: DATA_GO_KR_KEY (공공데이터포털 관세청 API "Decoding" 일반 인증키)
+# 필요 secret: DATA_GO_KR_KEY (공공데이터포털 관세청 API 일반 인증키, Decoding 값)
 #   활용신청 필요한 API: 품목별(15101609) / 품목별·국가별(15100475) / 국가별(15101612)
 name: update-exports
 

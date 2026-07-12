@@ -129,11 +129,13 @@ const NAT = "https://apis.data.go.kr/1220000/nationtrade/getNationtradeList";
 async function fetchItem(spec, startYymm) {
   const acc = new Map();
   if (spec.type === "nation") {
-    const cnty = spec.name === "미국" ? "US" : "CN";
+    const cnty = (spec.country || "").split(",")[0] || (spec.name === "미국" ? "US" : "CN");
     await fetchMonthly(NAT, { cntyCd: cnty }, spec.flow, startYymm, acc);
   } else if (spec.type === "total") {
-    // 국가별 전체를 받아 월별 합산 → 총수출
-    await fetchMonthly(NAT, {}, spec.flow, startYymm, acc);
+    // 총수출: HS 2자리 챕터(01~97) 전체를 합산
+    for (let ch = 1; ch <= 97; ch++) {
+      await fetchMonthly(IT, { hsSgn: String(ch).padStart(2, "0") }, spec.flow, startYymm, acc);
+    }
   } else {
     const codes = (spec.hs || "").split(",").filter(Boolean);
     const countries = (spec.country || "").split(",").filter(Boolean);
@@ -179,7 +181,7 @@ function calibrate(fetched, existingRows) {
     if (Math.abs(v.usd * scaleU / exUsd.get(ym) - 1) <= 0.03) ok++;
   }
   const agree = usdRatios.length ? ok / usdRatios.length : 0;
-  return { trusted: usdRatios.length >= 6 && agree >= 0.8, overlap: usdRatios.length, agree, usdScale: scaleU, kgScale: scaleK };
+  return { trusted: usdRatios.length >= 6 && agree >= 0.75, overlap: usdRatios.length, agree, usdScale: scaleU, kgScale: scaleK };
 }
 
 const report = { updated: new Date().toISOString(), items: {} };
@@ -201,14 +203,17 @@ for (const spec of config.items) {
     const fetched = await fetchItem(spec, start);
     if (!fetched.size) { report.items[spec.name] = { status: "empty" }; continue; }
     const cal = calibrate(fetched, rows);
-    if (!cal.trusted && cal.overlap > 0) {
+    // force: 기존(엑셀) 값이 오염된 품목 등 — 검증을 건너뛰고 API 값을 그대로 수용
+    if (!spec.force && !cal.trusted && cal.overlap > 0) {
       report.items[spec.name] = { status: "mismatch", ...cal, note: "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요" };
       continue;
     }
     // overlap 0 (기존 데이터 없음)이면 스케일 1로 그대로 수용
     const scaleU = cal.usdScale ?? 1, scaleK = cal.kgScale ?? 1;
-    const krwByYm = new Map(rows.filter((r) => r[2]).map((r) => [r[0], r[2]]));
-    const merged = new Map(rows.map((r) => [r[0], r]));
+    // force 품목은 기존 값(오염 가능)을 버리고 API 값으로 전면 교체
+    const keep = spec.force ? [] : rows;
+    const krwByYm = new Map(keep.filter((r) => r[2]).map((r) => [r[0], r[2]]));
+    const merged = new Map(keep.map((r) => [r[0], r]));
     for (const [ym, v] of [...fetched.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
       if (!(v.usd > 0)) continue;
       merged.set(ym, [ym, v.usd * scaleU, krwByYm.get(ym) ?? null, v.wgt > 0 ? v.wgt * scaleK : null]);

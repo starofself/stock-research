@@ -1,0 +1,2561 @@
+{
+ "updated": "2026-07-12T06:27:02.033Z",
+ "items": {
+  "7304": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=0.2928",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "7305": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=0.2846",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "7306": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=0.6763",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "총수출": {
+   "status": "error",
+   "error": "HTTP 403"
+  },
+  "디램": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "디램모듈": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "낸드": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "HBM": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체검사장비": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체세정장비": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체세척장비": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체용 폴리실리콘(수입)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "건식식각장비": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "산업용자동화원자현미경": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9622641509433962,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "AIR 쿨러": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "공작기계(와이지원관련)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "터빈": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "비료": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "양극재(NCM+NCA)": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=1.3237",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "양극재(NCM)": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "양극재(NCA)": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "리튬전지": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "ess 미국": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.9814814814814815,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "피팅": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "mlcc": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "SSD+미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "한양디지텍": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "리드프레임": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체장비수입": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "pcb": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "CCL": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "PROBE CARD": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "광섬유": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "솔더볼": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "선박 엔진": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "엔진 미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "라면": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "포토레지스트": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "고용량변압기": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "고용량변압기+미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.9814814814814815,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "변압기 + 미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "전선(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "올리고": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "실리콘러버소켓, 리노핀": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "플러그소켓": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "모노리식집적회로": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "실리콘 파츠(링+포커스)": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "실리콘링": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "cvd 포커스링": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "알루미늄박": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "동박": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "담배": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "블랭크마스크": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체증착": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체증착(수입)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체제조용장비부품(펠리클)": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "필러": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "음반": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9622641509433962,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "EMC(HBM소재) 일본": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 47,
+   "reason": "usd ratio median=630.6656",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "체성분분석기": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "혈액제제": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=0.0069",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "쿼츠웨어": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "정수기": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "소스": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "HRSG": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "폴리실리콘": {
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "보냉재": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "보냉재 중국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "태양광셀+모듈": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=2.1320",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "태양광모듈": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "태양광셀": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "리쥬란": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품미백": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품미백(폴란드)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품미백(중국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.9814814814814815,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품미백(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품미백(일본)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "아라미드": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "스판덱스": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "탄소섬유": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "NCF 수입 일본": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 51,
+   "agree": 0.9803921568627451,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "자동차": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=35.5769",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "지혈제": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "생물현미경": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품메이크업용": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품메이크업용(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품메이크업용(중국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품메이크업용(일본)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.9814814814814815,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "마스크팩": {
+   "status": "ok",
+   "months": 82,
+   "from": "2019-10",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "건기식": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "전차와 장갑차": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.8490566037735849,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "전기회로 + 미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "전기제어등 + 미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.9629629629629629,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "바이오시밀러": {
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "보톡스 (합)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "보톡스": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "보톡스 (2)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "보톡스(미국)": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.9814814814814815,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "미용기기(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "미용기기(합)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "미용기기": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "미용기기(레이저기타)": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "미용기기(소모품)": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "미용기기 hifu 기기": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "과산화수소(반도체)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "비행기+부품": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "비행기": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 27,
+   "agree": 0.48148148148148145,
+   "usdScale": 1,
+   "kgScale": 1,
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "비행기부품": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "안테나+시스템": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "agree": 0.03773584905660377,
+   "usdScale": 1,
+   "kgScale": 1,
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "안테나시스템": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "안테나": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "라이신 합산": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "라이신(1)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "라이신(2)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "모노리식집적회로(중국)": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 46,
+   "agree": 0.9782608695652174,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "미국": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 41,
+   "agree": 0.975609756097561,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "중국": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 29,
+   "agree": 0.5517241379310345,
+   "usdScale": 1,
+   "kgScale": 1,
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "창상피복재": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "창상피복재(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "우유+메로나": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "우유": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "메로나": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "메로나(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "베이커리류(중국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "소형변압기(합)": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=1.2383",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "소형변압기": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "소형변압기 (2)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "트랙터": {
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "트랙터(미국)": {
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "온수기+보일러": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "온수기": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "보일러": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "온수기(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.9814814814814815,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "보일러(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "뷰티디바이스(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.8148148148148148,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "뷰티디바이스": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "HVAC 미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "전구체 수출": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 38,
+   "agree": 0.9736842105263158,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "양극재(NCM 전구체수입)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "네일관련화장품": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 42,
+   "agree": 0.9761904761904762,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "탄산리튬(수입)": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "agree": 0.24528301886792453,
+   "usdScale": 1,
+   "kgScale": 1,
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "수산화리튬(수입)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "스텐트": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 17,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "리플로우": {
+   "status": "ok",
+   "months": 98,
+   "from": "2016-02",
+   "to": "2026-07",
+   "overlap": 49,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "밸브": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "김": {
+   "status": "ok",
+   "months": 80,
+   "from": "2019-10",
+   "to": "2026-05",
+   "overlap": 35,
+   "agree": 0.9714285714285714,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품튜브": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "화장품기타": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 51,
+   "agree": 0.9803921568627451,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "카본캐니스터 미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 0.9814814814814815,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "자동차부품 멕시코 + 미국": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 46,
+   "agree": 0.9782608695652174,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "자동차부품 미국": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 46,
+   "agree": 0.9782608695652174,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "자동차부품 멕시코": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 46,
+   "agree": 0.9782608695652174,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "자동차부품 인도": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 44,
+   "agree": 0.9772727272727273,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "고압수소": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 52,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "임플란트": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "임플란트(중국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "FPCB": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "PI필름": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "카메라부문품": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "OIS 액츄에이터": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "oled유기재료": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "oled유기재료(수입)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "HMI": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 28,
+   "agree": 0.9642857142857143,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "변환기": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 28,
+   "agree": 0.9642857142857143,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "PLC": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 28,
+   "agree": 0.8928571428571429,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "선박": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 39,
+   "agree": 0.8205128205128205,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "치과장비(네덜란드)": {
+   "status": "ok",
+   "months": 67,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 17,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "치과장비(미국)": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 46,
+   "agree": 0.9782608695652174,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "치과장비": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "스마트폰": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체 웨이퍼 연마기": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "강관합산(7304~6)(미국)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "전자동정제분류포장시스템": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "쓰레오닌": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 38,
+   "agree": 0.9473684210526315,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "혈당측정기": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "혈당스트립": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "봉합재+충전재": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "봉합재": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "충전재 치과용": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "의료기기": {
+   "status": "ok",
+   "months": 108,
+   "from": "2016-01",
+   "to": "2024-12",
+   "overlap": 36,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "핸들러": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "agree": 0.7735849056603774,
+   "usdScale": 1,
+   "kgScale": 1,
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "cok": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "핫도그등": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "핫도그 미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "검사장비": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "레이저마커": {
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "어닐링": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체검사장비(중국)": {
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 44,
+   "agree": 0.9545454545454546,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체검사장비(미국)": {
+   "status": "ok",
+   "months": 123,
+   "from": "2016-01",
+   "to": "2026-06",
+   "overlap": 44,
+   "agree": 0.8409090909090909,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "메모리테스터": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "다층세라믹기판": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "프리커서": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 24,
+   "agree": 0.9583333333333334,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "반도체오버레이": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "타워플랜지": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "면역진단": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "의료디텍터": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "리튬일차전지": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "인공유방": {
+   "status": "ok",
+   "months": 109,
+   "from": "2016-01",
+   "to": "2025-01",
+   "overlap": 37,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "구강스캐너": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 44,
+   "agree": 0.9772727272727273,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "굴삭기잠정": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "굴삭기미국": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 54,
+   "agree": 0.7777777777777778,
+   "usdScale": 1,
+   "kgScale": 1,
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "그밖의 엔진(미국)": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 52,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "유압실린더": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "트랙롤러": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "트랙롤러 미국": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "3챔버수액": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "금속 자성 코어": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "기지국부분품": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "전기통신용 측정기": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "니켈도금강판": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "실리콘음극재(수입)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "실리콘음극재(수출)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "cnt분말(수출)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "분리막(1)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "분리막(2)": {
+   "status": "ok",
+   "months": 100,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "탈철기": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "샴푸원료": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "선박조명": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "CCM TESTER": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "산화방지조제품(합, 송원산업)": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "산화방지조제품": {
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "산화방지조제품(2)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "산화방지조제품(3)": {
+   "status": "ok",
+   "months": 113,
+   "from": "2017-02",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "안과용기기(합)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "안과용기기": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "안과용기기 (소모품)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "스파이럴임플란트": {
+   "status": "ok",
+   "months": 108,
+   "from": "2016-01",
+   "to": "2024-12",
+   "overlap": 36,
+   "agree": 0.9722222222222222,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "모바일프린터": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "금속 절삭": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "타이어": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "타이어코드(합)": {
+   "status": "mismatch",
+   "trusted": false,
+   "overlap": 53,
+   "reason": "usd ratio median=6.1266",
+   "note": "API 값이 기존 값과 달라 기존 데이터 유지 — HS/국가 설정 확인 필요"
+  },
+  "타이어코드": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "타이어코드 (2)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "에폭시수지": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "NB라텍스": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "cmf 시스템": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "트라우마": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "콘텍트렌즈": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "전자담배(수입)": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "조제품": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "공업용다이아몬드": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "베어링": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "오토모티브라이트": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 44,
+   "agree": 0.9772727272727273,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "카지노모니터": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9622641509433962,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "CXR": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "ev relay": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "결핵 진단 장비 + 키트": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 52,
+   "agree": 0.9807692307692307,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "결핵진단장비": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 0.9811320754716981,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "결핵진단키트": {
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "폴리우레탄합성피역": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "OLDE봉지재필름": {
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 53,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "OLEDTV": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 52,
+   "agree": 0.9807692307692307,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "OLDE패널(스마트폰부품)": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 52,
+   "agree": 0.9807692307692307,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "OLDE패널(휴대용 10키로미만)": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 52,
+   "agree": 0.9807692307692307,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "OLDE패널(유무선)": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 52,
+   "agree": 0.9807692307692307,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "OLDE패널(TV)(합)": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "OLDE패널(TV)": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 52,
+   "agree": 0.9807692307692307,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "OLDE패널(TV) (2)": {
+   "status": "ok",
+   "months": 53,
+   "from": "2022-01",
+   "to": "2026-05",
+   "overlap": 52,
+   "agree": 0.9807692307692307,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "붉은대게살": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 35,
+   "agree": 0.9714285714285714,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "게맛살": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 35,
+   "agree": 0.9714285714285714,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "김치": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 35,
+   "agree": 0.9714285714285714,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "맥주": {
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-05",
+   "overlap": 35,
+   "agree": 0.9714285714285714,
+   "usdScale": 1,
+   "kgScale": 1
+  },
+  "오스템임플란트": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "오스템임플란트 (2)": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  }
+ },
+ "summary": {
+  "mismatch": 16,
+  "error": 1,
+  "ok": 239,
+  "no-hs": 8
+ }
+}

@@ -460,7 +460,7 @@
   {
    "name": "혈액제제",
    "hs": "3002123000",
-   "country": null,
+   "country": "US",
    "flow": "exp",
    "type": "item",
    "companies": "알리글로 + 미국"
@@ -831,7 +831,8 @@
    "country": null,
    "flow": "exp",
    "type": "item",
-   "companies": "한국항공우주"
+   "companies": "한국항공우주",
+   "force": true
   },
   {
    "name": "비행기부품",
@@ -1104,7 +1105,8 @@
    "country": null,
    "flow": "imp",
    "type": "item",
-   "companies": "탄산리튬 수입"
+   "companies": "탄산리튬 수입",
+   "force": true
   },
   {
    "name": "수산화리튬(수입)",

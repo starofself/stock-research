@@ -1,12 +1,12 @@
 {
- "updated": "2026-07-21T10:00:23.363Z",
+ "updated": "2026-08-01T10:00:20.492Z",
  "items": {
   "7304": {
    "status": "ok",
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -16,7 +16,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -26,7 +26,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -46,7 +46,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -56,7 +56,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -66,7 +66,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -76,7 +76,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -86,7 +86,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -96,7 +96,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -106,8 +106,8 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
-   "agree": 0.9285714285714286,
+   "overlap": 13,
+   "agree": 1,
    "usdScale": 1,
    "kgScale": 1
   },
@@ -116,7 +116,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -126,7 +126,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -136,7 +136,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -146,7 +146,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -156,7 +156,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -166,7 +166,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -176,7 +176,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -236,7 +236,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -246,7 +246,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -256,7 +256,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -266,7 +266,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -286,7 +286,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -296,7 +296,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -306,7 +306,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -316,7 +316,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -326,7 +326,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -336,7 +336,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -346,7 +346,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -356,7 +356,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -366,7 +366,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -376,7 +376,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -386,7 +386,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -396,7 +396,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -406,7 +406,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -416,7 +416,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -426,7 +426,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -436,7 +436,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -446,7 +446,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -456,7 +456,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -490,7 +490,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -500,7 +500,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -510,7 +510,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -520,7 +520,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -530,7 +530,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -540,7 +540,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -560,7 +560,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -580,7 +580,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -590,7 +590,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -610,7 +610,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -620,7 +620,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -630,7 +630,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -640,7 +640,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -660,7 +660,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -670,7 +670,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -710,7 +710,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -720,7 +720,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -730,7 +730,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -740,7 +740,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -750,7 +750,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -760,7 +760,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -770,7 +770,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -780,7 +780,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -800,7 +800,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -810,7 +810,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -820,7 +820,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -830,8 +830,8 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
-   "agree": 0.9285714285714286,
+   "overlap": 13,
+   "agree": 1,
    "usdScale": 1,
    "kgScale": 1
   },
@@ -840,7 +840,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -850,7 +850,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -860,7 +860,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -870,7 +870,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -890,7 +890,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -900,7 +900,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -910,7 +910,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -920,7 +920,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -940,7 +940,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -960,7 +960,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -980,7 +980,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -990,7 +990,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1040,7 +1040,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1051,8 +1051,8 @@
   },
   "비행기": {
    "status": "ok",
-   "months": 8,
-   "from": "2025-05",
+   "months": 61,
+   "from": "2016-01",
    "to": "2026-04",
    "overlap": 8,
    "agree": 1,
@@ -1075,7 +1075,7 @@
    "from": "2022-01",
    "to": "2026-07",
    "overlap": 54,
-   "agree": 0.9814814814814815,
+   "agree": 1,
    "usdScale": 1,
    "kgScale": 1
   },
@@ -1085,7 +1085,7 @@
    "from": "2022-01",
    "to": "2026-07",
    "overlap": 54,
-   "agree": 0.9814814814814815,
+   "agree": 1,
    "usdScale": 1,
    "kgScale": 1
   },
@@ -1104,7 +1104,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1114,7 +1114,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1124,7 +1124,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1134,7 +1134,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1144,17 +1144,17 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
   },
   "중국": {
    "status": "ok",
-   "months": 126,
-   "from": "2016-01",
+   "months": 13,
+   "from": "2025-06",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1164,7 +1164,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1174,7 +1174,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1188,7 +1188,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1198,7 +1198,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1208,7 +1208,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1218,7 +1218,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1228,7 +1228,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1238,7 +1238,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1248,7 +1248,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1278,7 +1278,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1288,7 +1288,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1298,7 +1298,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1308,7 +1308,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1318,7 +1318,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1328,7 +1328,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1338,7 +1338,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1348,7 +1348,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1368,7 +1368,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1385,10 +1385,10 @@
   },
   "탄산리튬(수입)": {
    "status": "ok",
-   "months": 14,
-   "from": "2025-05",
+   "months": 126,
+   "from": "2016-01",
    "to": "2026-06",
-   "overlap": 13,
+   "overlap": 14,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1398,7 +1398,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1428,7 +1428,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1438,7 +1438,7 @@
    "months": 81,
    "from": "2019-10",
    "to": "2026-06",
-   "overlap": 80,
+   "overlap": 81,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1448,7 +1448,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1468,7 +1468,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1478,7 +1478,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1488,7 +1488,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1498,7 +1498,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1508,7 +1508,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1518,7 +1518,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1528,7 +1528,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1538,7 +1538,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1548,7 +1548,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1558,7 +1558,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1578,7 +1578,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1588,7 +1588,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1598,7 +1598,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1608,7 +1608,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1628,7 +1628,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1648,7 +1648,7 @@
    "months": 67,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 12,
+   "overlap": 11,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1658,7 +1658,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1668,7 +1668,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1688,7 +1688,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1698,7 +1698,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1708,7 +1708,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1718,7 +1718,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1752,7 +1752,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1762,7 +1762,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1775,7 +1775,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1785,7 +1785,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1795,7 +1795,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1805,7 +1805,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1815,7 +1815,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1845,7 +1845,7 @@
    "months": 126,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1855,7 +1855,7 @@
    "months": 123,
    "from": "2016-01",
    "to": "2026-06",
-   "overlap": 13,
+   "overlap": 12,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1865,7 +1865,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1875,7 +1875,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1885,7 +1885,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1895,7 +1895,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1905,7 +1905,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1925,7 +1925,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1935,7 +1935,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1958,7 +1958,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1968,7 +1968,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1978,7 +1978,7 @@
    "months": 125,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1988,7 +1988,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -1998,7 +1998,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2008,7 +2008,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2018,7 +2018,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2028,7 +2028,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2058,7 +2058,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2068,7 +2068,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2078,7 +2078,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2088,7 +2088,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2098,7 +2098,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2108,7 +2108,7 @@
    "months": 100,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2118,7 +2118,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2128,7 +2128,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2148,7 +2148,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2172,7 +2172,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2192,7 +2192,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2202,7 +2202,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2212,7 +2212,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2225,7 +2225,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2235,7 +2235,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2245,7 +2245,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2255,7 +2255,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2265,7 +2265,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2275,7 +2275,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2285,7 +2285,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2295,7 +2295,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2305,7 +2305,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2325,7 +2325,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2335,7 +2335,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2345,7 +2345,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2355,7 +2355,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2365,7 +2365,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2385,7 +2385,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2405,7 +2405,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2445,7 +2445,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2455,7 +2455,7 @@
    "months": 127,
    "from": "2016-01",
    "to": "2026-07",
-   "overlap": 14,
+   "overlap": 13,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2465,7 +2465,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2475,7 +2475,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2485,7 +2485,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2495,7 +2495,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2509,7 +2509,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1
@@ -2519,7 +2519,7 @@
    "months": 54,
    "from": "2022-01",
    "to": "2026-06",
-   "overlap": 53,
+   "overlap": 54,
    "agree": 1,
    "usdScale": 1,
    "kgScale": 1

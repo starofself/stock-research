@@ -5,15 +5,13 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/**": ["./content/**/*", "./data/**/*"],
   },
-  async rewrites() {
-    return {
-      // beforeFiles: 파일시스템/동적 라우트보다 먼저 검사된다.
-      // 루트(starfolio.io/)는 주도주 스크리너(public/leader)를 그대로 보여준다.
-      // 기존 리서치 대시보드는 /ko · /en 에 그대로 남아 있다.
-      beforeFiles: [{ source: "/", destination: "/leader/index.html" }],
-      afterFiles: [],
-      fallback: [],
-    };
+  async redirects() {
+    return [
+      // starfolio.io 루트로 들어오면 운영 중인 주도주 스크리너로 보낸다.
+      // permanent:false(307) — 브라우저가 영구 캐시하지 않아 언제든 되돌릴 수 있다.
+      // 이 저장소의 앱 소스는 /leader 에 그대로 있고 거기서 계속 고친다.
+      { source: "/", destination: "https://leader.starfolio.io", permanent: false },
+    ];
   },
 };
 

@@ -329,6 +329,38 @@ html, body {
 /* 수출 탭 — exports.html iframe */
 .exp-frame { width: 100%; height: calc(100dvh - 210px); min-height: 520px; border: 0; background: var(--bg); border-radius: 12px; }
 
+/* ── 신용잔고 탭 ── */
+.credit { display: flex; flex-direction: column; gap: 10px; }
+.cr-warn {
+  font-size: 12.5px; line-height: 1.5; padding: 9px 12px; border-radius: 10px;
+  background: rgba(240,193,75,.10); border: 1px solid rgba(240,193,75,.5); color: var(--yellow);
+}
+.cr-warn b { color: var(--yellow); }
+.cr-head {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 12px 14px;
+}
+.cr-title { font-size: 13px; color: var(--muted); font-weight: 600; }
+.cr-value { font-size: 30px; font-weight: 800; margin-top: 4px; letter-spacing: -.5px; }
+.cr-unit { font-size: 14px; font-weight: 600; color: var(--muted); margin-left: 2px; }
+.cr-sub { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
+.cr-sub b { color: var(--text); font-weight: 600; }
+.cr-delta { font-weight: 700; }
+.cr-delta.up { color: var(--green); }
+.cr-delta.down { color: var(--red); }
+.cr-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.cr-stat {
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 12px; padding: 9px 11px; min-width: 0;
+}
+.cr-k { display: block; font-size: 11.5px; color: var(--muted); }
+.cr-v { display: block; font-size: 16px; font-weight: 700; margin-top: 3px; }
+.cr-chart {
+  width: 100%; height: 300px; background: var(--bg-card);
+  border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+}
+.cr-foot { font-size: 11.5px; color: var(--muted); }
+
 /* ── 리서치 탭 ── */
 .research { display: flex; flex-direction: column; gap: 10px; }
 .rs-head {

@@ -1,6 +1,6 @@
 // 주도주 스크리너 PWA 서비스워커.
 // 셸(앱 자원)은 캐시 우선(오프라인 가능), 데이터(latest.json)는 네트워크 우선(항상 최신).
-const CACHE = "leader-screener-v19";  // bump on shell(index.html/app.js/styles.css) 변경 → 기기 셸 캐시 갱신
+const CACHE = "leader-screener-v20";  // bump on shell(index.html/app.js/styles.css) 변경 → 기기 셸 캐시 갱신
 const SHELL = [
   "./index.html",
   "./styles.css",
@@ -38,7 +38,7 @@ self.addEventListener("fetch", (e) => {
     url.pathname.includes("/data/latest") ||
     url.pathname.endsWith("/data/coins.json") ||
     url.pathname.endsWith("/data/exports.json") ||
-    url.pathname.endsWith("/data/thermometer.json")
+    url.pathname.endsWith("/data/credit.json")
   ) {
     e.respondWith(
       fetch(e.request).then((res) => {

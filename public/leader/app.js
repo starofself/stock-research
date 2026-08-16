@@ -23,10 +23,10 @@ const MA = [
 const MARKET_FREE_TABS = ["coins", "research"];
 function isMarketFree(tab) { return MARKET_FREE_TABS.indexOf(tab) !== -1; }
 // 데이터 로드에 실패해도 자체 데이터로 그려지는 탭(스크리너 스냅샷이 필요 없음).
-function isStandaloneTab(tab) { return isMarketFree(tab) || tab === "method" || tab === "exports" || tab === "thermometer"; }
+function isStandaloneTab(tab) { return isMarketFree(tab) || tab === "method" || tab === "exports" || tab === "credit"; }
 
 const el = (id) => document.getElementById(id);
-const state = { data: null, market: loadMarket(), tab: "entries", chart: null, ro: null, finChart: null, finRo: null, detailItem: null, logScale: loadLogScale(), research: null, researchFilter: "전체" };
+const state = { data: null, market: loadMarket(), tab: "entries", chart: null, ro: null, finChart: null, finRo: null, detailItem: null, logScale: loadLogScale(), research: null, researchFilter: "전체", credit: null, creditChart: null, creditRo: null };
 
 // 통화: 데이터에 있으면 그것을, 없으면(US 미적재 등) 선택된 시장 기준. 머니 포맷·법칙 임계값에 사용.
 function currency() { return (state.data && state.data.currency) || MARKET_META[state.market].currency; }
@@ -199,10 +199,8 @@ function renderList() {
     window.scrollTo(0, 0);
     return;
   }
-  // 체온계는 KR/US만 지원한다. 중국 시장에선 한국 체온으로 열어준다.
-  if (state.tab === "thermometer") {
-    const mkt = state.market === "us" ? "us" : "kr";
-    host.innerHTML = `<iframe class="exp-frame" src="${DATA_BASE}/thermometer.html?market=${mkt}" title="시장 체온계"></iframe>`;
+  if (state.tab === "credit") {
+    renderCredit();
     window.scrollTo(0, 0);
     return;
   }
@@ -291,6 +289,96 @@ function researchItem(it) {
     ${it.summary ? `<div class="rs-sum">${esc(it.summary)}</div>` : ""}
     ${tags ? `<div class="rs-tags">${tags}</div>` : ""}
   </a>`;
+}
+
+// ── 신용잔고 탭 — 한국·미국·중국을 시장 스위치로 갈아끼우며 1년치 잔고 추이만 본다. ──
+// 예전 "체온" 탭(여러 지표를 섞은 종합 온도)을 걷어내고 신용잔고 하나만 남긴 화면.
+function destroyCreditChart() {
+  if (state.creditRo) { state.creditRo.disconnect(); state.creditRo = null; }
+  if (state.creditChart) { state.creditChart.remove(); state.creditChart = null; }
+}
+
+function renderCredit() {
+  const host = el("list");
+  if (!state.credit) {
+    host.innerHTML = `<p class="empty">신용잔고 불러오는 중…</p>`;
+    fetch("./data/credit.json", { cache: "no-store" })
+      .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+      .then((d) => { state.credit = d; if (state.tab === "credit") renderCredit(); })
+      .catch((e) => { state.credit = { error: e.message, markets: {} }; if (state.tab === "credit") renderCredit(); });
+    return;
+  }
+  destroyCreditChart();
+  const d = state.credit;
+  const m = (d.markets || {})[state.market];
+  if (!m || !m.series || !m.series.length) {
+    host.innerHTML = `<p class="empty">${d.error ? "신용잔고를 불러오지 못했어요. " + esc(d.error) : MARKET_META[state.market].label.split(" ")[1] + " 신용잔고 데이터가 아직 없어요."}</p>`;
+    return;
+  }
+
+  const s = m.series;
+  const last = s[s.length - 1], first = s[0];
+  const prev4 = s[Math.max(0, s.length - 5)];
+  const yoy = first.v ? (last.v - first.v) / first.v : null;
+  const m4 = prev4.v ? (last.v - prev4.v) / prev4.v : null;
+  const dec = m.decimals == null ? 2 : m.decimals;
+  const fmt = (v) => Number(v).toLocaleString("ko-KR", { minimumFractionDigits: dec, maximumFractionDigits: dec });
+  const delta = (x) => x == null ? "—" : `<span class="cr-delta ${x >= 0 ? "up" : "down"}">${x >= 0 ? "+" : "−"}${Math.abs(x * 100).toFixed(1)}%</span>`;
+
+  host.innerHTML = `<div class="credit">
+    ${d.sample ? `<div class="cr-warn">⚠ <b>샘플 데이터</b> — UI 확인용 자리표시자입니다. 실제 수치가 아니며, 수집 소스를 붙이면 교체됩니다.</div>` : ""}
+    <div class="cr-head">
+      <div class="cr-title">${esc(MARKET_META[state.market].label)} · ${esc(m.name)}</div>
+      <div class="cr-value num">${fmt(last.v)} <span class="cr-unit">${esc(m.unit)}</span></div>
+      <div class="cr-sub">기준일 <b class="num">${esc(last.t)}</b> · 최근 4주 ${delta(m4)} · 1년 ${delta(yoy)}</div>
+    </div>
+    <div class="cr-stats">
+      <div class="cr-stat"><span class="cr-k">1년 전</span><span class="cr-v num">${fmt(first.v)}</span></div>
+      <div class="cr-stat"><span class="cr-k">1년 최고</span><span class="cr-v num">${fmt(Math.max(...s.map((p) => p.v)))}</span></div>
+      <div class="cr-stat"><span class="cr-k">1년 최저</span><span class="cr-v num">${fmt(Math.min(...s.map((p) => p.v)))}</span></div>
+    </div>
+    <div id="cr-chart" class="cr-chart"></div>
+    <div class="cr-foot">최근 1년 주간 추이 · ${esc(m.source || "-")}</div>
+  </div>`;
+
+  drawCreditChart(s, m);
+}
+
+function drawCreditChart(series, meta) {
+  const host = el("cr-chart");
+  if (!host || !window.LightweightCharts) return;
+  const LWC = window.LightweightCharts;
+  const chart = LWC.createChart(host, {
+    width: host.clientWidth,
+    height: 300,
+    layout: { background: { type: "solid", color: "#0d1117" }, textColor: "#8b97a7", fontSize: 11 },
+    grid: { vertLines: { visible: false }, horzLines: { color: "#1b2230" } },
+    rightPriceScale: { borderColor: "#2a3340" },
+    timeScale: { borderColor: "#2a3340", fixLeftEdge: true, fixRightEdge: true },
+    crosshair: { mode: LWC.CrosshairMode.Normal },
+    handleScale: { axisPressedMouseMove: false },
+    localization: {
+      // 로케일 고정 — 안 주면 차트가 navigator.language 를 쓰는데, 방문자 OS 로케일이
+      // 이상하면 시간축 포매터가 통째로 throw 한다.
+      locale: "ko-KR",
+      priceFormatter: (v) => Number(v).toLocaleString("ko-KR", {
+        minimumFractionDigits: meta.decimals == null ? 2 : meta.decimals,
+        maximumFractionDigits: meta.decimals == null ? 2 : meta.decimals,
+      }),
+    },
+  });
+  const area = chart.addAreaSeries({
+    lineColor: "#ff9f43", topColor: "rgba(255,159,67,.30)", bottomColor: "rgba(255,159,67,.02)",
+    lineWidth: 2, priceLineVisible: false,
+  });
+  area.setData(series.map((p) => ({ time: p.t, value: p.v })));
+  chart.timeScale().fitContent();
+  state.creditChart = chart;
+  state.creditRo = new ResizeObserver(() => {
+    const w = host.clientWidth;
+    if (state.creditChart && w > 0) state.creditChart.applyOptions({ width: w });
+  });
+  state.creditRo.observe(host);
 }
 
 // ── 법칙(방법론) 탭 — 스크리너가 실제로 쓰는 규칙. 다른 봇 리서치 참고용. ──
@@ -502,6 +590,7 @@ function mktcapInline(it) {
 // ── 상세 + 차트 ──
 function showList() {
   destroyChart();
+  destroyCreditChart();
   el("detail").hidden = true;
   el("list").hidden = false;
   document.querySelector(".tabs").hidden = false;

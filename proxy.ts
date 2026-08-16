@@ -32,6 +32,9 @@ function pickLocale(req: NextRequest): string {
 export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // 루트는 주도주 스크리너(public/leader)로 rewrite 된다 — 로케일 리다이렉트에서 제외.
+  if (pathname === "/") return;
+
   const hasLocale = locales.some(
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`),
   );
@@ -43,9 +46,10 @@ export function proxy(req: NextRequest) {
 }
 
 export const config = {
-  // Run on everything except API, Next internals, metadata files, and any
-  // path containing a dot (static assets like /hero.png, /blog-att/*).
+  // Run on everything except API, the leader screener app, Next internals,
+  // metadata files, and any path containing a dot (static assets like
+  // /hero.png, /blog-att/*).
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|opengraph-image|.*\\.).*)",
+    "/((?!api|leader|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt|opengraph-image|.*\\.).*)",
   ],
 };

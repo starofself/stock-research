@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>주요 코인 점검</title>
+<script src="./lib/lightweight-charts.standalone.production.js"></script>
+<style>
+  :root{
+    --bg:#0d1117; --bg-elev:#161b22; --bg-card:#1b2230; --border:#2a3340;
+    --text:#e6edf3; --muted:#8b97a7; --accent:#ff9f43; --green:#3fb950; --red:#f85149; --blue:#4aa3ff;
+    --cyan:#39c5cf;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",Roboto,sans-serif;font-size:15px;line-height:1.45}
+  body{padding:12px 12px calc(env(safe-area-inset-bottom) + 40px)}
+  .num{font-variant-numeric:tabular-nums}
+  .up{color:var(--red)} .down{color:var(--blue)} .flat{color:var(--muted)}
+  .head{display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+  .head h1{font-size:20px;margin:2px 0 3px}
+  .sub{font-size:12.5px;color:var(--muted)}
+  .note{font-size:12px;color:var(--muted);margin-top:3px}
+  .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:12px}
+  @media(max-width:359px){.grid{grid-template-columns:1fr}}
+  @media(min-width:560px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+  .coin{width:100%;text-align:left;background:var(--bg-card);border:1px solid var(--border);
+    border-radius:12px;padding:10px 11px;color:var(--text);cursor:pointer;min-width:0}
+  .coin.on{border-color:var(--accent);box-shadow:0 0 0 1px rgba(255,159,67,.28) inset}
+  .coin:active{background:#222b3a}
+  .ctop{display:flex;align-items:baseline;gap:6px;min-width:0}
+  .ticker{font-size:15px;font-weight:800;letter-spacing:0}
+  .name{font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .price{font-size:20px;font-weight:800;margin-top:5px}
+  .change{font-size:12.5px;font-weight:700;margin-left:5px}
+  .badge{display:inline-flex;align-items:center;justify-content:center;margin-top:7px;
+    font-size:12px;font-weight:800;padding:2px 8px;border-radius:8px;border:1px solid var(--border)}
+  .b-entry{color:var(--blue);background:rgba(74,163,255,.16);border-color:rgba(74,163,255,.42)}
+  .b-leading{color:var(--green);background:rgba(63,185,80,.16);border-color:rgba(63,185,80,.42)}
+  .b-long{color:var(--cyan);background:rgba(57,197,207,.15);border-color:rgba(57,197,207,.4)}
+  .b-watch{color:var(--accent);background:rgba(255,159,67,.16);border-color:rgba(255,159,67,.42)}
+  .b-exit{color:var(--red);background:rgba(248,81,73,.16);border-color:rgba(248,81,73,.42)}
+  .b-muted{color:var(--muted);background:rgba(139,151,167,.12);border-color:var(--border)}
+  .meta{font-size:11.5px;color:var(--muted);margin-top:7px;white-space:normal}
+  .panel{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:10px}
+  .phead{display:flex;align-items:flex-start;gap:8px;justify-content:space-between;margin-bottom:8px}
+  .ptitle{font-size:16px;font-weight:800}
+  .pmeta{font-size:12px;color:var(--muted);text-align:right}
+  .legend{display:flex;gap:10px;flex-wrap:wrap;font-size:11.5px;color:var(--muted);margin-bottom:7px}
+  .legend span{display:inline-flex;align-items:center;gap:4px}
+  .legend i{display:inline-block;width:16px;height:2px;border-radius:999px}
+  #chart{width:100%;height:330px;border-radius:10px;overflow:hidden}
+  .detail{font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.55}
+  .empty{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+  <div class="head">
+    <div style="min-width:0">
+      <h1>주요 코인 점검</h1>
+      <div class="sub" id="sub">-</div>
+      <div class="note">주봉 4·13·26·52주 MA 정배열 기준 · 코인은 실적이 없어 가격(추세) 파트만 적용 · 한국/미국/중국 시장 선택과 무관한 24시간 글로벌 시장</div>
+    </div>
+  </div>
+
+  <div class="grid" id="cards"></div>
+
+  <section class="panel" id="panel" hidden>
+    <div class="phead">
+      <div>
+        <div class="ptitle" id="title">-</div>
+        <div class="meta" id="snap">-</div>
+      </div>
+      <div class="pmeta" id="status">-</div>
+    </div>
+    <div class="legend" id="legend"></div>
+    <div id="chart"></div>
+    <div class="detail" id="detail">-</div>
+  </section>
+
+  <div class="empty" id="empty" hidden></div>
+
+<script>
+"use strict";
+// 코인 스냅샷도 아직 로컬 파이프라인이 leader.starfolio.io 로 퍼블리시한다. app.js 의 DATA_BASE 와 같이 움직인다.
+var DATA_BASE="https://leader.starfolio.io";
+var S={data:null,coins:[],cur:null,chart:null,ro:null};
+var nfC=new Intl.NumberFormat("en-US",{notation:"compact",maximumFractionDigits:2});
+var COLORS={ma4:"#e6edf3",ma13:"#ff9f43",ma26:"#4aa3ff",ma52:"#8b97a7"};
+
+function el(id){return document.getElementById(id)}
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function finite(v){return v!=null&&isFinite(Number(v))}
+function fmtUsd(v){return finite(v)?"$"+nfC.format(Number(v)):"-"}
+function pct(v){return finite(v)?(Number(v)>0?"+":"")+(Number(v)*100).toFixed(1)+"%":"-"}
+function pcls(v){return !finite(v)?"flat":Number(v)>0?"up":Number(v)<0?"down":"flat"}
+function mmdd(v){return finite(v)?(Number(v)*100).toFixed(1)+"%":"-"}
+function weeks(v){return finite(v)?String(Math.round(Number(v)))+"주":"-"}
+function alignedText(v){return v==null?"-":v?"O":"X"}
+function labelClass(label){
+  return label==="초입"?"b-entry":label==="진행"?"b-leading":label==="장기"?"b-long":
+    label==="이탈주의"?"b-watch":label==="이탈"?"b-exit":"b-muted";
+}
+function maText(ma){
+  ma=ma||{};
+  return "MA 4 "+fmtUsd(ma.ma4)+" · 13 "+fmtUsd(ma.ma13)+" · 26 "+fmtUsd(ma.ma26)+" · 52 "+fmtUsd(ma.ma52);
+}
+
+function boot(){
+  fetch(DATA_BASE+"/data/coins.json",{cache:"no-store"}).then(function(r){
+    if(!r.ok)throw new Error("HTTP "+r.status);
+    return r.json();
+  }).then(function(d){
+    S.data=d; S.coins=d.coins||[];
+    el("sub").textContent="기준일 "+(d.as_of||"-")+" · "+(d.source||"-");
+    renderCards();
+    if(S.coins.length)select(S.coins[0].ticker);
+    else showEmpty("코인 데이터가 없습니다.");
+  }).catch(function(e){showEmpty("데이터를 불러오지 못했어요. "+e.message)});
+}
+
+function renderCards(){
+  var host=el("cards");
+  host.innerHTML="";
+  var frag=document.createDocumentFragment();
+  S.coins.forEach(function(c){
+    var b=document.createElement("button");
+    b.type="button";
+    b.className="coin"+(S.cur===c.ticker?" on":"");
+    b.innerHTML=
+      '<div class="ctop"><span class="ticker">'+esc(c.ticker)+'</span><span class="name">'+esc(c.name)+'</span></div>'+
+      '<div><span class="price num">'+fmtUsd(c.price)+'</span><span class="change num '+pcls(c.chg_1w)+'">'+pct(c.chg_1w)+'</span></div>'+
+      '<div><span class="badge '+labelClass(c.label)+'">'+esc(c.label||"-")+'</span></div>'+
+      '<div class="meta">정배열 '+alignedText(c.aligned)+' · 경과 '+weeks(c.weeks_since_onset)+' · MDD '+mmdd(c.mdd)+'</div>';
+    b.addEventListener("click",function(){select(c.ticker)});
+    frag.appendChild(b);
+  });
+  host.appendChild(frag);
+}
+
+function coinByTicker(ticker){
+  return S.coins.filter(function(c){return c.ticker===ticker})[0]||null;
+}
+
+function select(ticker){
+  var c=coinByTicker(ticker);
+  if(!c)return;
+  S.cur=ticker;
+  renderCards();
+  renderDetail(c);
+}
+
+function renderDetail(c){
+  el("empty").hidden=true;
+  el("panel").hidden=false;
+  el("title").innerHTML=esc(c.ticker)+" <span style=\"color:var(--muted);font-weight:600\">"+esc(c.name)+"</span>";
+  el("snap").textContent=maText(c.ma);
+  el("status").innerHTML='<span class="badge '+labelClass(c.label)+'">'+esc(c.label||"-")+'</span>';
+  el("legend").innerHTML=
+    '<span><i style="background:'+COLORS.ma4+'"></i>MA4</span>'+
+    '<span><i style="background:'+COLORS.ma13+'"></i>MA13</span>'+
+    '<span><i style="background:'+COLORS.ma26+'"></i>MA26</span>'+
+    '<span><i style="background:'+COLORS.ma52+'"></i>MA52</span>';
+  drawChart(c.weekly||[]);
+  var signals=(c.signals&&c.signals.length)?c.signals.join(", "):"신호 없음";
+  el("detail").textContent=(c.stage||"-")+" · onset "+(c.onset_date||"-")+" · "+(c.exit_signal||"-")+" · "+signals;
+}
+
+function drawChart(rows){
+  var host=el("chart");
+  if(S.ro){S.ro.disconnect();S.ro=null}
+  if(S.chart){S.chart.remove();S.chart=null}
+  host.innerHTML="";
+  if(!rows.length){host.innerHTML='<div class="detail">차트 데이터가 없습니다.</div>';return}
+  var LWC=window.LightweightCharts;
+  if(!LWC){host.innerHTML='<div class="detail">차트 라이브러리를 불러오지 못했어요.</div>';return}
+  var chart=LWC.createChart(host,{
+    width:host.clientWidth,height:330,
+    layout:{background:{type:"solid",color:"#0d1117"},textColor:"#8b97a7",fontSize:11},
+    grid:{vertLines:{color:"#1b2230"},horzLines:{color:"#1b2230"}},
+    rightPriceScale:{borderColor:"#2a3340"},
+    timeScale:{borderColor:"#2a3340",fixLeftEdge:true,fixRightEdge:true},
+    handleScale:{axisPressedMouseMove:false},
+    localization:{priceFormatter:function(v){return nfC.format(v)}}
+  });
+  S.chart=chart;
+  var candles=rows.filter(function(r){return finite(r.o)&&finite(r.h)&&finite(r.l)&&finite(r.c)}).map(function(r){
+    return {time:r.t,open:Number(r.o),high:Number(r.h),low:Number(r.l),close:Number(r.c)};
+  });
+  var cs=chart.addCandlestickSeries({
+    upColor:"#f85149",downColor:"#4aa3ff",borderUpColor:"#f85149",borderDownColor:"#4aa3ff",
+    wickUpColor:"#f85149",wickDownColor:"#4aa3ff",priceLineVisible:false
+  });
+  cs.setData(candles);
+  [["ma4",COLORS.ma4],["ma13",COLORS.ma13],["ma26",COLORS.ma26],["ma52",COLORS.ma52]].forEach(function(pair){
+    var key=pair[0],color=pair[1];
+    var data=rows.filter(function(r){return finite(r[key])}).map(function(r){return {time:r.t,value:Number(r[key])}});
+    var line=chart.addLineSeries({color:color,lineWidth:key==="ma4"?2:1,priceLineVisible:false,lastValueVisible:false});
+    line.setData(data);
+  });
+  chart.timeScale().fitContent();
+  S.ro=new ResizeObserver(function(){chart.applyOptions({width:host.clientWidth})});
+  S.ro.observe(host);
+}
+
+function showEmpty(msg){
+  el("cards").innerHTML="";
+  el("panel").hidden=true;
+  el("empty").hidden=false;
+  el("empty").textContent=msg;
+}
+
+boot();
+</script>
+</body>
+</html>

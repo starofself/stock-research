@@ -126,12 +126,15 @@ const OC_COMPANIES = CONTENT ? path.join(CONTENT, "notes", "oc") : path.join(OC,
 const NOTE_DIRS: { prefix: string; dir: string; type: string }[] = CONTENT
   ? [
       { prefix: "oc", dir: path.join(CONTENT, "notes", "oc"), type: "기업노트" },
+      { prefix: "industry", dir: path.join(CONTENT, "notes", "industry"), type: "산업" },
       { prefix: "research", dir: path.join(CONTENT, "notes", "research"), type: "딥리서치" },
       { prefix: "theme", dir: path.join(CONTENT, "notes", "theme"), type: "테마" },
       { prefix: "daily", dir: path.join(CONTENT, "notes", "daily"), type: "데일리" },
     ]
   : [
       { prefix: "oc", dir: path.join(OC, "03_Companies"), type: "기업노트" },
+      // 로컬 볼트에 산업 노트 폴더가 다른 이름이면 이 경로만 바꾸면 된다.
+      { prefix: "industry", dir: path.join(OC, "04_Industries"), type: "산업" },
       { prefix: "research", dir: path.join(VAULT, "Research"), type: "딥리서치" },
       { prefix: "theme", dir: path.join(OC, "02_Themes"), type: "테마" },
       { prefix: "daily", dir: path.join(OC, "01_Daily_Capture"), type: "데일리" },
@@ -193,6 +196,24 @@ export function getNotes(locale?: string): NoteItem[] {
 
 export function getNotesByType(type: string, locale?: string): NoteItem[] {
   return getNotes(locale).filter((n) => n.type === type);
+}
+
+export type NoteSource = { type: string; dir: string; count: number; latest: string; missingSummary: number };
+
+// 노트 폴더별 적재 현황 — 리서치 탭의 "업로드 점검"이 이걸로 제대로 올라갔는지 보여준다.
+// count 0 = 폴더가 없거나 비어 있음(= 그 탭이 빈 화면이 된다는 뜻).
+export function getNoteSources(): NoteSource[] {
+  const notes = getNotes();
+  return NOTE_DIRS.map(({ dir, type }) => {
+    const mine = notes.filter((n) => n.type === type);
+    return {
+      type,
+      dir: path.relative(process.cwd(), dir) || dir,
+      count: mine.length,
+      latest: mine.reduce((a, n) => (n.date > a ? n.date : a), ""),
+      missingSummary: mine.filter((n) => !n.summary).length,
+    };
+  });
 }
 
 export type Stock = { ticker: string; name: string; count: number; date: string; tags: string[]; latestId: string };

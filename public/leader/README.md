@@ -7,13 +7,19 @@
 
 | 주소 | 동작 |
 | --- | --- |
-| `starfolio.io/` | **307 리다이렉트 → `leader.starfolio.io`** (운영 중인 스크리너, 손대지 않음) |
-| `starfolio.io/leader/` | 이 저장소의 앱 — 여기서 고치고 확인한다 |
+| `starfolio.io/` | **이 저장소의 앱**(`public/leader`)을 서빙 — 코인 분리 · 리서치 · 신용잔고 탭이 들어간 버전 |
+| `starfolio.io/leader/` | 같은 앱 (직접 경로) |
 | `starfolio.io/ko` · `/en` | 기존 리서치 대시보드 (그대로) |
+| `leader.starfolio.io` | 맥에서 CLI 로 배포한 기존 앱 — **손대지 않았다.** 백업 겸 데이터 소스로 계속 살아 있다 |
 
-리다이렉트는 `next.config.ts` 의 `redirects()` 에 있고 `permanent: false`(307) 라 브라우저가 영구 캐시하지
-않는다. 이 저장소 버전으로 갈아탈 준비가 되면 그 한 줄을 지우고 `rewrites().beforeFiles` 로
-`{ source: "/", destination: "/leader/index.html" }` 를 넣으면 루트가 이 앱을 서빙한다.
+루트는 `next.config.ts` 의 `rewrites().beforeFiles` 로 `/leader/index.html` 에 연결된다. 리다이렉트가
+아니라 rewrite 라 주소창은 `starfolio.io` 그대로다. 되돌리려면 그 블록을 아래로 바꾸면 된다:
+
+```ts
+async redirects() {
+  return [{ source: "/", destination: "https://leader.starfolio.io", permanent: false }];
+}
+```
 
 ## 구성
 

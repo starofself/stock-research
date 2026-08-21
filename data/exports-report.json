@@ -1,1053 +1,2568 @@
 {
- "updated": "2026-08-11T10:00:18.095Z",
+ "updated": "2026-08-21T10:00:20.991Z",
  "items": {
   "7304": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "7305": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "7306": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "총수출": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "디램": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "디램모듈": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "낸드": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "HBM": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체검사장비": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체세정장비": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체세척장비": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체용 폴리실리콘(수입)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "건식식각장비": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "산업용자동화원자현미경": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "AIR 쿨러": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "공작기계(와이지원관련)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "터빈": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "비료": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "양극재(NCM+NCA)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "양극재(NCM)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "양극재(NCA)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "리튬전지": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "ess 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "피팅": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "mlcc": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "SSD+미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "한양디지텍": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "리드프레임": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체장비수입": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "pcb": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "CCL": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "PROBE CARD": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "광섬유": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "솔더볼": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "선박 엔진": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "엔진 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "라면": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "포토레지스트": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "고용량변압기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "고용량변압기+미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "변압기 + 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "전선(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "올리고": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "실리콘러버소켓, 리노핀": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "플러그소켓": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "모노리식집적회로": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "실리콘 파츠(링+포커스)": {
    "status": "no-hs",
    "note": "HS코드 미지정 — 기존 데이터 유지"
   },
   "실리콘링": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "cvd 포커스링": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "알루미늄박": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "동박": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "담배": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "블랭크마스크": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체증착": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체증착(수입)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체제조용장비부품(펠리클)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "필러": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "음반": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "EMC(HBM소재) 일본": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "체성분분석기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "혈액제제": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "쿼츠웨어": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "정수기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "소스": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "HRSG": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "폴리실리콘": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 115,
+   "agree": 0.991304347826087,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "보냉재": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "보냉재 중국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "태양광셀+모듈": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "태양광모듈": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "태양광셀": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "리쥬란": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품미백": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품미백(폴란드)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품미백(중국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품미백(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품미백(일본)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "아라미드": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "스판덱스": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "탄소섬유": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "NCF 수입 일본": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "자동차": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "지혈제": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "생물현미경": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품메이크업용": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품메이크업용(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.8571428571428571,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품메이크업용(중국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품메이크업용(일본)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "마스크팩": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 82,
+   "from": "2019-10",
+   "to": "2026-07",
+   "overlap": 82,
+   "agree": 0.9878048780487805,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "건기식": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "전차와 장갑차": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "전기회로 + 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "전기제어등 + 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "바이오시밀러": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 115,
+   "agree": 0.991304347826087,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "보톡스 (합)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "보톡스": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "보톡스 (2)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "보톡스(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "미용기기(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "미용기기(합)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "미용기기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "미용기기(레이저기타)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "미용기기(소모품)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "미용기기 hifu 기기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "과산화수소(반도체)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "비행기+부품": {
    "status": "no-hs",
    "note": "HS코드 미지정 — 기존 데이터 유지"
   },
   "비행기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 8,
+   "from": "2025-06",
+   "to": "2026-07",
+   "overlap": 7,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "비행기부품": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "안테나+시스템": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "안테나시스템": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "안테나": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "라이신 합산": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "라이신(1)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "라이신(2)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "모노리식집적회로(중국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "중국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "창상피복재": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "창상피복재(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "우유+메로나": {
    "status": "no-hs",
    "note": "HS코드 미지정 — 기존 데이터 유지"
   },
   "우유": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "메로나": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "메로나(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "베이커리류(중국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "소형변압기(합)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "소형변압기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "소형변압기 (2)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.8571428571428571,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "트랙터": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 115,
+   "agree": 0.991304347826087,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "트랙터(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 115,
+   "agree": 0.991304347826087,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "온수기+보일러": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "온수기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "보일러": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "온수기(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "보일러(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "뷰티디바이스(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "뷰티디바이스": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.8571428571428571,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "HVAC 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "전구체 수출": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "양극재(NCM 전구체수입)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "네일관련화장품": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "탄산리튬(수입)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 14,
+   "from": "2025-06",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 0.9230769230769231,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "수산화리튬(수입)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "스텐트": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 19,
+   "agree": 0.9473684210526315,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "리플로우": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 98,
+   "from": "2016-02",
+   "to": "2026-07",
+   "overlap": 94,
+   "agree": 0.9893617021276596,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "밸브": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "김": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 82,
+   "from": "2019-10",
+   "to": "2026-07",
+   "overlap": 81,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품튜브": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "화장품기타": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "카본캐니스터 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "자동차부품 멕시코 + 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "자동차부품 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "자동차부품 멕시코": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "자동차부품 인도": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "고압수소": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "임플란트": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "임플란트(중국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "FPCB": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "PI필름": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "카메라부문품": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "OIS 액츄에이터": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "oled유기재료": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "oled유기재료(수입)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "HMI": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "변환기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "PLC": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "선박": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "치과장비(네덜란드)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 68,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 11,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "치과장비(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "치과장비": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "스마트폰": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체 웨이퍼 연마기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 126,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "강관합산(7304~6)(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "전자동정제분류포장시스템": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "쓰레오닌": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "혈당측정기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "혈당스트립": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "봉합재+충전재": {
    "status": "no-hs",
    "note": "HS코드 미지정 — 기존 데이터 유지"
   },
   "봉합재": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "충전재 치과용": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "의료기기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "empty"
   },
   "핸들러": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "cok": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "핫도그등": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "핫도그 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "검사장비": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "레이저마커": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 115,
+   "agree": 0.991304347826087,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "어닐링": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체검사장비(중국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체검사장비(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 124,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 12,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "메모리테스터": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "다층세라믹기판": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "프리커서": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "반도체오버레이": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "타워플랜지": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "면역진단": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "의료디텍터": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "리튬일차전지": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "인공유방": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "empty"
   },
   "구강스캐너": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "굴삭기잠정": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "굴삭기미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "그밖의 엔진(미국)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 125,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "유압실린더": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "트랙롤러": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "트랙롤러 미국": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "3챔버수액": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "금속 자성 코어": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "기지국부분품": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "전기통신용 측정기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9636363636363636,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "니켈도금강판": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "실리콘음극재(수입)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "실리콘음극재(수출)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "cnt분말(수출)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "분리막(1)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "분리막(2)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 100,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "탈철기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "샴푸원료": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "선박조명": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "CCM TESTER": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "산화방지조제품(합, 송원산업)": {
    "status": "no-hs",
    "note": "HS코드 미지정 — 기존 데이터 유지"
   },
   "산화방지조제품": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 115,
+   "from": "2017-01",
+   "to": "2026-07",
+   "overlap": 115,
+   "agree": 0.991304347826087,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "산화방지조제품(2)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "산화방지조제품(3)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 113,
+   "from": "2017-02",
+   "to": "2026-07",
+   "overlap": 113,
+   "agree": 0.9911504424778761,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "안과용기기(합)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "안과용기기": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "안과용기기 (소모품)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "스파이럴임플란트": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "empty"
   },
   "모바일프린터": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "금속 절삭": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "타이어": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "타이어코드(합)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "타이어코드": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "타이어코드 (2)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "에폭시수지": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "NB라텍스": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "cmf 시스템": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "트라우마": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "콘텍트렌즈": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "전자담배(수입)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "조제품": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "공업용다이아몬드": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "베어링": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "오토모티브라이트": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "카지노모니터": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "CXR": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "ev relay": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "결핵 진단 장비 + 키트": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "결핵진단장비": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "결핵진단키트": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 55,
+   "agree": 0.9818181818181818,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "폴리우레탄합성피역": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.9285714285714286,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "OLDE봉지재필름": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 14,
+   "agree": 0.8571428571428571,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "OLEDTV": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "OLDE패널(스마트폰부품)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "OLDE패널(휴대용 10키로미만)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "OLDE패널(유무선)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "OLDE패널(TV)(합)": {
    "status": "no-hs",
    "note": "HS코드 미지정 — 기존 데이터 유지"
   },
   "OLDE패널(TV)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "OLDE패널(TV) (2)": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 55,
+   "from": "2022-01",
+   "to": "2026-07",
+   "overlap": 54,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "붉은대게살": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "게맛살": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "김치": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "맥주": {
-   "status": "error",
-   "error": "fetch failed"
+   "status": "ok",
+   "months": 127,
+   "from": "2016-01",
+   "to": "2026-07",
+   "overlap": 13,
+   "agree": 1,
+   "usdScale": 1,
+   "kgScale": 1
   },
   "오스템임플란트": {
    "status": "no-hs",
@@ -1059,7 +2574,8 @@
   }
  },
  "summary": {
-  "error": 256,
-  "no-hs": 8
+  "ok": 253,
+  "no-hs": 8,
+  "empty": 3
  }
 }

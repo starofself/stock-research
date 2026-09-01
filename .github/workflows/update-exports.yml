@@ -1,0 +1,64 @@
+# 관세청 품목별 수출입 데이터 자동 갱신
+#
+# 관세청 발표 일정에 맞춰 실행:
+#   - 매월 1·11·21일: 10일 단위 잠정치 발표
+#   - 매월 15일경: 전월 월간 확정
+# 발표 당일 + 다음날 11:30 KST(02:30 UTC)에 돌려 늦은 반영도 수습한다.
+#
+# 필요 secret: DATA_GO_KR_KEY (공공데이터포털 관세청 API 일반 인증키, Decoding 값)
+#   활용신청 필요한 API: 품목별(15101609) / 품목별·국가별(15100475) / 국가별(15101612)
+name: update-exports
+
+on:
+  schedule:
+    - cron: "30 2 1,2,11,12,15,16,21,22 * *"
+  push:
+    branches: ["main", "claude/starfolio-export-data-graph-8mvz6t"]
+    paths: [".github/workflows/update-exports.yml", "data/export-items.json"]
+  workflow_dispatch:
+    inputs:
+      start:
+        description: "백필 시작 시점 YYYYMM (예: 201601). 비우면 자동"
+        required: false
+        default: ""
+      items:
+        description: "품목 필터, 콤마 구분 (예: 디램,낸드). 비우면 전체"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-exports
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch customs data
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          START: ${{ github.event.inputs.start }}
+          ITEMS: ${{ github.event.inputs.items }}
+        run: |
+          ARGS=""
+          [ -n "$START" ] && ARGS="$ARGS --start $START"
+          [ -n "$ITEMS" ] && ARGS="$ARGS --items $ITEMS"
+          node scripts/fetch-exports-customs.mjs $ARGS
+      - name: Commit & push
+        run: |
+          if git diff --quiet data/; then
+            echo "변경 없음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/exports.json data/exports-report.json
+          git commit -m "data: exports update $(date -u +%F)"
+          git push

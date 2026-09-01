@@ -1,0 +1,1065 @@
+{
+ "updated": "2026-09-01T10:00:19.361Z",
+ "items": {
+  "7304": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "7305": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "7306": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "총수출": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "디램": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "디램모듈": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "낸드": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "HBM": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체검사장비": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체세정장비": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체세척장비": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체용 폴리실리콘(수입)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "건식식각장비": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "산업용자동화원자현미경": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "AIR 쿨러": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "공작기계(와이지원관련)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "터빈": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "비료": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "양극재(NCM+NCA)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "양극재(NCM)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "양극재(NCA)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "리튬전지": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "ess 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "피팅": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "mlcc": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "SSD+미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "한양디지텍": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "리드프레임": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체장비수입": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "pcb": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "CCL": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "PROBE CARD": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "광섬유": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "솔더볼": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "선박 엔진": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "엔진 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "라면": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "포토레지스트": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "고용량변압기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "고용량변압기+미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "변압기 + 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "전선(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "올리고": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "실리콘러버소켓, 리노핀": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "플러그소켓": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "모노리식집적회로": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "실리콘 파츠(링+포커스)": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "실리콘링": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "cvd 포커스링": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "알루미늄박": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "동박": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "담배": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "블랭크마스크": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체증착": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체증착(수입)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체제조용장비부품(펠리클)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "필러": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "음반": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "EMC(HBM소재) 일본": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "체성분분석기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "혈액제제": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "쿼츠웨어": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "정수기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "소스": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "HRSG": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "폴리실리콘": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "보냉재": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "보냉재 중국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "태양광셀+모듈": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "태양광모듈": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "태양광셀": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "리쥬란": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품미백": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품미백(폴란드)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품미백(중국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품미백(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품미백(일본)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "아라미드": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "스판덱스": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "탄소섬유": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "NCF 수입 일본": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "자동차": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "지혈제": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "생물현미경": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품메이크업용": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품메이크업용(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품메이크업용(중국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품메이크업용(일본)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "마스크팩": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "건기식": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "전차와 장갑차": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "전기회로 + 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "전기제어등 + 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "바이오시밀러": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "보톡스 (합)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "보톡스": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "보톡스 (2)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "보톡스(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "미용기기(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "미용기기(합)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "미용기기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "미용기기(레이저기타)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "미용기기(소모품)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "미용기기 hifu 기기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "과산화수소(반도체)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "비행기+부품": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "비행기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "비행기부품": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "안테나+시스템": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "안테나시스템": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "안테나": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "라이신 합산": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "라이신(1)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "라이신(2)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "모노리식집적회로(중국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "중국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "창상피복재": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "창상피복재(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "우유+메로나": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "우유": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "메로나": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "메로나(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "베이커리류(중국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "소형변압기(합)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "소형변압기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "소형변압기 (2)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "트랙터": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "트랙터(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "온수기+보일러": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "온수기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "보일러": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "온수기(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "보일러(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "뷰티디바이스(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "뷰티디바이스": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "HVAC 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "전구체 수출": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "양극재(NCM 전구체수입)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "네일관련화장품": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "탄산리튬(수입)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "수산화리튬(수입)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "스텐트": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "리플로우": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "밸브": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "김": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품튜브": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "화장품기타": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "카본캐니스터 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "자동차부품 멕시코 + 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "자동차부품 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "자동차부품 멕시코": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "자동차부품 인도": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "고압수소": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "임플란트": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "임플란트(중국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "FPCB": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "PI필름": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "카메라부문품": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "OIS 액츄에이터": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "oled유기재료": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "oled유기재료(수입)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "HMI": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "변환기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "PLC": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "선박": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "치과장비(네덜란드)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "치과장비(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "치과장비": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "스마트폰": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체 웨이퍼 연마기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "강관합산(7304~6)(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "전자동정제분류포장시스템": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "쓰레오닌": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "혈당측정기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "혈당스트립": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "봉합재+충전재": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "봉합재": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "충전재 치과용": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "의료기기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "핸들러": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "cok": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "핫도그등": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "핫도그 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "검사장비": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "레이저마커": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "어닐링": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체검사장비(중국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체검사장비(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "메모리테스터": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "다층세라믹기판": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "프리커서": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "반도체오버레이": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "타워플랜지": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "면역진단": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "의료디텍터": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "리튬일차전지": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "인공유방": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "구강스캐너": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "굴삭기잠정": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "굴삭기미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "그밖의 엔진(미국)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "유압실린더": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "트랙롤러": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "트랙롤러 미국": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "3챔버수액": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "금속 자성 코어": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "기지국부분품": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "전기통신용 측정기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "니켈도금강판": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "실리콘음극재(수입)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "실리콘음극재(수출)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "cnt분말(수출)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "분리막(1)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "분리막(2)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "탈철기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "샴푸원료": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "선박조명": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "CCM TESTER": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "산화방지조제품(합, 송원산업)": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "산화방지조제품": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "산화방지조제품(2)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "산화방지조제품(3)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "안과용기기(합)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "안과용기기": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "안과용기기 (소모품)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "스파이럴임플란트": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "모바일프린터": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "금속 절삭": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "타이어": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "타이어코드(합)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "타이어코드": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "타이어코드 (2)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "에폭시수지": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "NB라텍스": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "cmf 시스템": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "트라우마": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "콘텍트렌즈": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "전자담배(수입)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "조제품": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "공업용다이아몬드": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "베어링": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "오토모티브라이트": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "카지노모니터": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "CXR": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "ev relay": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "결핵 진단 장비 + 키트": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "결핵진단장비": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "결핵진단키트": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "폴리우레탄합성피역": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "OLDE봉지재필름": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "OLEDTV": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "OLDE패널(스마트폰부품)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "OLDE패널(휴대용 10키로미만)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "OLDE패널(유무선)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "OLDE패널(TV)(합)": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "OLDE패널(TV)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "OLDE패널(TV) (2)": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "붉은대게살": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "게맛살": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "김치": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "맥주": {
+   "status": "error",
+   "error": "fetch failed"
+  },
+  "오스템임플란트": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  },
+  "오스템임플란트 (2)": {
+   "status": "no-hs",
+   "note": "HS코드 미지정 — 기존 데이터 유지"
+  }
+ },
+ "summary": {
+  "error": 256,
+  "no-hs": 8
+ }
+}

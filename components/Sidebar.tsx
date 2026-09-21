@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Sparkles, Flame, Tags, TrendingUp, CandlestickChart, Newspaper, Layers, FlaskConical, CalendarDays, PenLine, type LucideIcon } from "lucide-react";
+import { Home, Sparkles, Flame, Tags, TrendingUp, CandlestickChart, Newspaper, Layers, FlaskConical, CalendarDays, PenLine, Ship, type LucideIcon } from "lucide-react";
 import { withLocale, type Locale } from "@/lib/i18n/config";
 
-type NavKey = "home" | "brief" | "screener" | "sectors" | "stocks" | "chart" | "disclosures" | "themes" | "research" | "daily" | "blog";
+type NavKey = "home" | "brief" | "screener" | "sectors" | "stocks" | "chart" | "exports" | "disclosures" | "themes" | "research" | "daily" | "blog";
 
 const nav: { key: NavKey; href: string; Icon: LucideIcon }[] = [
   { key: "home", href: "/", Icon: Home },
@@ -13,6 +13,7 @@ const nav: { key: NavKey; href: string; Icon: LucideIcon }[] = [
   { key: "sectors", href: "/sectors", Icon: Tags },
   { key: "stocks", href: "/stocks", Icon: TrendingUp },
   { key: "chart", href: "/chart", Icon: CandlestickChart },
+  { key: "exports", href: "/exports", Icon: Ship },
   { key: "disclosures", href: "/disclosures", Icon: Newspaper },
   { key: "themes", href: "/themes", Icon: Layers },
   { key: "research", href: "/research", Icon: FlaskConical },
